@@ -6,7 +6,7 @@
 <!------------------------------------------->
 <!----------------MARKUP----------------------->
 <!------------------------------------------->
-<section id="services" class="section">
+<section id="services" class="section grey-bgcolor">
   <div class="container text-center">
     <h2>{HEADING}</h2>
     <div class="row section-body">
@@ -24,6 +24,10 @@
 <!----------------STYLE----------------------->
 <!------------------------------------------->
 <style>
+  .section {
+    background-color: #1F2E4B !important;
+    color: #CDCDCD;
+  }
   .service-img {
     width: 200px;
     height: 200px;
@@ -38,6 +42,11 @@
 
   .title {
     text-transform: uppercase;
+    color: #CDCDCD;
+  }
+
+  h1, h2, h3, h4 {
+    color: #CDCDCD;
   }
 
   .title::before {

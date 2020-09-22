@@ -646,14 +646,14 @@ var app = (function () {
     			t3 = space();
     			div1 = element("div");
     			img = element("img");
-    			attr_dev(h1, "class", "svelte-11u8fdx");
+    			attr_dev(h1, "class", "svelte-1aldayt");
     			add_location(h1, file$1, 11, 8, 389);
     			add_location(p, file$1, 12, 8, 421);
     			attr_dev(div0, "class", "col-md-6");
     			add_location(div0, file$1, 10, 6, 358);
     			if (img.src !== (img_src_value = "images/markjaffe.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
-    			attr_dev(img, "class", "img-fluid svelte-11u8fdx");
+    			attr_dev(img, "class", "img-fluid svelte-1aldayt");
     			add_location(img, file$1, 15, 8, 491);
     			attr_dev(div1, "class", "col-md-6");
     			add_location(div1, file$1, 14, 6, 460);
@@ -661,7 +661,7 @@ var app = (function () {
     			add_location(div2, file$1, 9, 4, 334);
     			attr_dev(div3, "class", "container");
     			add_location(div3, file$1, 8, 2, 306);
-    			attr_dev(section, "class", "black svelte-11u8fdx");
+    			attr_dev(section, "class", "black svelte-1aldayt");
     			attr_dev(section, "id", "banner");
     			add_location(section, file$1, 7, 0, 268);
     		},
@@ -784,13 +784,13 @@ var app = (function () {
     			t4 = space();
     			if (img.src !== (img_src_value = /*list*/ ctx[4].URL)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = /*list*/ ctx[4].LABEL);
-    			attr_dev(img, "class", "service-img svelte-lks6f3");
-    			add_location(img, file$2, 14, 10, 477);
-    			attr_dev(h4, "class", "svelte-lks6f3");
-    			add_location(h4, file$2, 15, 10, 547);
-    			add_location(p, file$2, 16, 10, 579);
-    			attr_dev(div, "class", "col-md-4 service svelte-lks6f3");
-    			add_location(div, file$2, 13, 8, 436);
+    			attr_dev(img, "class", "service-img svelte-1vp3qol");
+    			add_location(img, file$2, 14, 10, 490);
+    			attr_dev(h4, "class", "svelte-1vp3qol");
+    			add_location(h4, file$2, 15, 10, 560);
+    			add_location(p, file$2, 16, 10, 592);
+    			attr_dev(div, "class", "col-md-4 service svelte-1vp3qol");
+    			add_location(div, file$2, 13, 8, 449);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -846,13 +846,14 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			add_location(h2, file$2, 10, 4, 339);
+    			attr_dev(h2, "class", "svelte-1vp3qol");
+    			add_location(h2, file$2, 10, 4, 352);
     			attr_dev(div0, "class", "row section-body");
-    			add_location(div0, file$2, 11, 4, 362);
+    			add_location(div0, file$2, 11, 4, 375);
     			attr_dev(div1, "class", "container text-center");
-    			add_location(div1, file$2, 9, 2, 299);
+    			add_location(div1, file$2, 9, 2, 312);
     			attr_dev(section, "id", "services");
-    			attr_dev(section, "class", "section");
+    			attr_dev(section, "class", "section grey-bgcolor svelte-1vp3qol");
     			add_location(section, file$2, 8, 0, 257);
     		},
     		l: function claim(nodes) {
@@ -978,7 +979,7 @@ var app = (function () {
     		c: function create() {
     			li = element("li");
     			t = text(t_value);
-    			attr_dev(li, "class", "svelte-lcl9qq");
+    			attr_dev(li, "class", "svelte-r0spo4");
     			add_location(li, file$3, 15, 12, 569);
     		},
     		m: function mount(target, anchor) {
@@ -1044,11 +1045,11 @@ var app = (function () {
     			t4 = space();
     			div1 = element("div");
     			img = element("img");
-    			attr_dev(h2, "class", "title text-center");
+    			attr_dev(h2, "class", "title text-center svelte-r0spo4");
     			add_location(h2, file$3, 9, 4, 345);
-    			attr_dev(h3, "class", "about-title svelte-lcl9qq");
+    			attr_dev(h3, "class", "about-title svelte-r0spo4");
     			add_location(h3, file$3, 12, 8, 462);
-    			attr_dev(ul, "class", "svelte-lcl9qq");
+    			attr_dev(ul, "class", "svelte-r0spo4");
     			add_location(ul, file$3, 13, 8, 507);
     			attr_dev(div0, "class", "col-md-6");
     			add_location(div0, file$3, 11, 6, 431);
@@ -1063,7 +1064,7 @@ var app = (function () {
     			attr_dev(div3, "class", "container");
     			add_location(div3, file$3, 8, 2, 317);
     			attr_dev(section, "id", "about-us");
-    			attr_dev(section, "class", "section grey-bgcolor svelte-lcl9qq");
+    			attr_dev(section, "class", "section grey-bgcolor svelte-r0spo4");
     			add_location(section, file$3, 7, 0, 262);
     		},
     		l: function claim(nodes) {

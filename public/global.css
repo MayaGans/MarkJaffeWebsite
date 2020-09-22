@@ -3,8 +3,8 @@
 
 :root {
   --gradient: linear-gradient(90deg, #1F2E4B 0%, #1F2E4B 100%);
-  --light: #fff;
-  --grey: #f8f9fa;
+  --light: #CDCDCD;
+  --grey: #CDCDCD;
 }
 
 html,

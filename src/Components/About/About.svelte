@@ -33,6 +33,15 @@
     margin-bottom: 20px;
   }
 
+  .section {
+    background-color: #1F2E4B !important;
+    color: #CDCDCD;
+  }
+
+  h1, h2, h3, h4 {
+    color: #CDCDCD;
+  }
+
   section ul li {
     margin: 10px 0;
   }
