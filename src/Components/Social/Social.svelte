@@ -20,7 +20,7 @@
 <style>
 
   .section {
-    background-color: #1F2E4B;
+    background-color: #D0D0D0;
   }
   .social-icons img {
     width: 30%;

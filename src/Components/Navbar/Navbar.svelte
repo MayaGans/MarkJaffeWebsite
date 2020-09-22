@@ -7,7 +7,7 @@
 <!----------------MARKUP----------------------->
 <!------------------------------------------->
 <section id="nav-bar">
-  <nav class="navbar main-bgcolor navbar-expand-md navbar-dark">
+  <nav class="navbar navbar-expand-md navbar-dark">
     <a class="navbar-brand company_brand" href="/">
       {header}
     </a>
@@ -40,10 +40,20 @@
     position: sticky;
     top: 0;
     z-index: 10;
+    background-color: #00AEEF !important;
+    color: #1F2E4B !important;
+  }
+
+  a.nav-link.light-color {
+    color: #1F2E4B !important;
   }
 
   .navbar {
     padding: 0 20px !important;
+  }
+
+  .navbar-brand {
+    color: #1F2E4B !important;
   }
 
   .navbar-nav li {
@@ -55,9 +65,5 @@
     text-transform: uppercase;
     float: right;
     text-align: left;
-  }
-
-  a:hover {
-    color: #00AEEF !important;
   }
 </style>

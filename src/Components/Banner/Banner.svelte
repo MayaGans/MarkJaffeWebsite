@@ -29,12 +29,15 @@
 
   .img-fluid {
     width: 75%;
-    box-shadow: 0 0 10px 2px #1F2E4B;
+    box-shadow: 0 0 10px 2px #00AEEF;
+  }
+  h1,h2,h3,h4 {
+    color: #D0D0D0 !important;
   }
 
   .black {
-    background-color:  #D0D0D0 !important;
-    color: #1F2E4B;
+    background-color: #1F2E4B  !important;
+    color: #D0D0D0;
   }
 
   h1 {

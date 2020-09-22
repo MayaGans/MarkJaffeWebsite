@@ -29,15 +29,15 @@
 <style>
 
   .section {
-    background-color: #1F2E4B;
+    background-color: #D0D0D0 ;
   }
 
   .testimonial {
     border-left: 4px solid #00AEEF;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: #1F2E4B;
-    color: #D0D0D0;
+    background-color: #D0D0D0 ;
+    color: #1F2E4B;
   }
 
   .testimonial img {
