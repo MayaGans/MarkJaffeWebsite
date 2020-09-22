@@ -393,10 +393,10 @@ var app = (function () {
     			a = element("a");
     			t0 = text(t0_value);
     			t1 = space();
-    			attr_dev(a, "class", "nav-link light-color svelte-ue7r31");
+    			attr_dev(a, "class", "nav-link light-color svelte-bc0nda");
     			attr_dev(a, "href", a_href_value = /*list*/ ctx[2].url);
     			add_location(a, file, 27, 12, 836);
-    			attr_dev(li, "class", "nav-item svelte-ue7r31");
+    			attr_dev(li, "class", "nav-item svelte-bc0nda");
     			add_location(li, file, 26, 10, 802);
     		},
     		m: function mount(target, anchor) {
@@ -463,7 +463,7 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(a, "class", "navbar-brand company_brand svelte-ue7r31");
+    			attr_dev(a, "class", "navbar-brand company_brand svelte-bc0nda");
     			attr_dev(a, "href", "/");
     			add_location(a, file, 10, 4, 315);
     			attr_dev(span, "class", "navbar-toggler-icon");
@@ -476,15 +476,15 @@ var app = (function () {
     			attr_dev(button, "aria-expanded", "false");
     			attr_dev(button, "aria-label", "Toggle navigation");
     			add_location(button, file, 13, 4, 391);
-    			attr_dev(ul, "class", "navbar-nav ml-auto svelte-ue7r31");
+    			attr_dev(ul, "class", "navbar-nav ml-auto svelte-bc0nda");
     			add_location(ul, file, 24, 6, 727);
     			attr_dev(div, "class", "collapse navbar-collapse");
     			attr_dev(div, "id", "navbarNav");
     			add_location(div, file, 23, 4, 667);
-    			attr_dev(nav, "class", "navbar navbar-expand-md navbar-dark svelte-ue7r31");
+    			attr_dev(nav, "class", "navbar navbar-expand-md navbar-dark svelte-bc0nda");
     			add_location(nav, file, 9, 2, 261);
     			attr_dev(section, "id", "nav-bar");
-    			attr_dev(section, "class", "svelte-ue7r31");
+    			attr_dev(section, "class", "svelte-bc0nda");
     			add_location(section, file, 8, 0, 236);
     		},
     		l: function claim(nodes) {

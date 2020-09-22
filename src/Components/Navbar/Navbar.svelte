@@ -67,7 +67,6 @@
   }
 
   .navbar-nav li a {
-    font-weight: 600;
     text-transform: uppercase;
     float: right;
     text-align: left;
@@ -75,11 +74,11 @@
   }
 
   .navbar-nav a:hover {
-    color: white !important;
-    font-weight: 500 !important;
+    color: white  !important;
+    font-weight: 400 !important;
   }
 
   a:hover {
-    font-weight: 500 !important;
+    font-weight: 400 !important;
   }
 </style>
