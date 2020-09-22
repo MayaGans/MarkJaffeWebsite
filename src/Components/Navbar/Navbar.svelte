@@ -50,6 +50,7 @@
 
   section#nav-bar {
     padding: 20px !important;
+    font-weight: 300 !important;
 }
 
   .navbar {
@@ -62,6 +63,7 @@
 
   .navbar-nav li {
     padding: 0 0 0 20px;
+    font-weight: 300 !important;
   }
 
   .navbar-nav li a {
@@ -69,14 +71,15 @@
     text-transform: uppercase;
     float: right;
     text-align: left;
+    font-weight: 300 !important;
   }
 
   .navbar-nav a:hover {
-    color: black !important;
-    font-weight: 900 !important;
+    color: white !important;
+    font-weight: 500 !important;
   }
 
   a:hover {
-    font-weight: 900 !important;
+    font-weight: 500 !important;
   }
 </style>
