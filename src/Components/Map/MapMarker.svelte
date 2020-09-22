@@ -12,7 +12,7 @@
 	const popup = new mapbox.Popup({ offset: 25 })
 		.setText(label);
 
-	const marker = new mapbox.Popup({ closeOnClick: true })
+	const marker = new mapbox.Popup({ closeOnClick: false })
 .setLngLat([lon, lat])
 .setHTML('<br/> 9900 Stirling Rd #102 <br/> Hollywood, FL 33024 <br/> (954) 441-9995')
 .addTo(map);

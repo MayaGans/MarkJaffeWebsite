@@ -1815,7 +1815,7 @@ var app = (function () {
     return mapboxgl;
 
     })));
-
+    //# sourceMappingURL=mapbox-gl.js.map
     });
 
     // https://docs.mapbox.com/help/glossary/access-token/
@@ -2346,7 +2346,7 @@ var app = (function () {
     	let { lon } = $$props;
     	let { label } = $$props;
     	const popup = new mapboxGl.Popup({ offset: 25 }).setText(label);
-    	const marker = new mapboxGl.Popup({ closeOnClick: true }).setLngLat([lon, lat]).setHTML("<br/> 9900 Stirling Rd #102 <br/> Hollywood, FL 33024 <br/> (954) 441-9995").addTo(map);
+    	const marker = new mapboxGl.Popup({ closeOnClick: false }).setLngLat([lon, lat]).setHTML("<br/> 9900 Stirling Rd #102 <br/> Hollywood, FL 33024 <br/> (954) 441-9995").addTo(map);
     	const writable_props = ["lat", "lon", "label"];
 
     	Object.keys($$props).forEach(key => {
