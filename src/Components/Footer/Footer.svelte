@@ -13,7 +13,7 @@
 <!------------------------------------------->
 <!----------------MARKUP----------------------->
 <!------------------------------------------->
-<section class="main-bgcolor light-color" id="footer">
+<section id="footer">
   <div class="container">
     <div class="left">
       9900 Stirling Rd #102 
@@ -29,6 +29,12 @@
 <!----------------Style----------------------->
 <!------------------------------------------->
 <style>
+
+  #footer {
+    background-color: #D0D0D0;
+    color: #1F2E4B;
+  }
+
   .footer-title {
     font-weight: bold;
     text-transform: uppercase;

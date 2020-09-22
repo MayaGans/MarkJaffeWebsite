@@ -29,12 +29,12 @@
 
   .img-fluid {
     width: 75%;
-    box-shadow: 0 0 10px 2px #CDCDCD;
+    box-shadow: 0 0 10px 2px #1F2E4B;
   }
 
   .black {
-    background-color:  #1F2E4B !important;
-    color: #CDCDCD;
+    background-color:  #D0D0D0 !important;
+    color: #1F2E4B;
   }
 
   h1 {
@@ -42,7 +42,7 @@
     font-weight: 600;
     margin-top: 100px;
     text-transform: uppercase;
-    color: #CDCDCD;
+    color: #1F2E4B;
   }
   .watch-btn {
     margin: auto 20px;

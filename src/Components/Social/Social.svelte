@@ -20,7 +20,7 @@
 <style>
 
   .section {
-    background-color: #00AEEF;
+    background-color: #1F2E4B;
   }
   .social-icons img {
     width: 30%;
@@ -31,7 +31,7 @@
   }
 
   .glow {
-    box-shadow: 0 0 10px 2px #1F2E4B;
+    box-shadow: 0 0 10px 2px #00AEEF;
     margin-right: 20px;  
   }
 

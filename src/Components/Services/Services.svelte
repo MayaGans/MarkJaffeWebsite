@@ -25,8 +25,8 @@
 <!------------------------------------------->
 <style>
   .section {
-    background-color: #1F2E4B !important;
-    color: #CDCDCD;
+    background-color:  #D0D0D0 !important;
+    color: #1F2E4B;
   }
   .service-img {
     width: 200px;
@@ -42,11 +42,7 @@
 
   .title {
     text-transform: uppercase;
-    color: #CDCDCD;
-  }
-
-  h1, h2, h3, h4 {
-    color: #CDCDCD;
+    color: #D0D0D0;
   }
 
   .title::before {

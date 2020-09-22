@@ -39,7 +39,8 @@
 <style>
   
   .section {
-    background-color: #00AEEF;
+    background-color: #1F2E4B ;
+    color: #D0D0D0;
   }
 
   .custom-text {
@@ -53,11 +54,11 @@
   .map {
         height: 400px;
         width: 100%;
-        box-shadow: 0 0 10px 2px #1F2E4B;
+        box-shadow: 0 0 10px 2px #00AEEF;
        }
 
   .glow {
-    box-shadow: 0 0 10px 2px #1F2E4B;
+    box-shadow: 0 0 10px 2px #00AEEF;
     margin-right: 20px;  
   }
 

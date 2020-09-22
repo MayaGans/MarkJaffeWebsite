@@ -34,12 +34,8 @@
   }
 
   .section {
-    background-color: #1F2E4B !important;
-    color: #CDCDCD;
-  }
-
-  h1, h2, h3, h4 {
-    color: #CDCDCD;
+    background-color:  #D0D0D0 !important;
+    color: #1F2E4B;
   }
 
   section ul li {

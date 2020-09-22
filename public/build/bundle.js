@@ -646,14 +646,14 @@ var app = (function () {
     			t3 = space();
     			div1 = element("div");
     			img = element("img");
-    			attr_dev(h1, "class", "svelte-1aldayt");
+    			attr_dev(h1, "class", "svelte-itwf34");
     			add_location(h1, file$1, 11, 8, 389);
     			add_location(p, file$1, 12, 8, 421);
     			attr_dev(div0, "class", "col-md-6");
     			add_location(div0, file$1, 10, 6, 358);
     			if (img.src !== (img_src_value = "images/markjaffe.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
-    			attr_dev(img, "class", "img-fluid svelte-1aldayt");
+    			attr_dev(img, "class", "img-fluid svelte-itwf34");
     			add_location(img, file$1, 15, 8, 491);
     			attr_dev(div1, "class", "col-md-6");
     			add_location(div1, file$1, 14, 6, 460);
@@ -661,7 +661,7 @@ var app = (function () {
     			add_location(div2, file$1, 9, 4, 334);
     			attr_dev(div3, "class", "container");
     			add_location(div3, file$1, 8, 2, 306);
-    			attr_dev(section, "class", "black svelte-1aldayt");
+    			attr_dev(section, "class", "black svelte-itwf34");
     			attr_dev(section, "id", "banner");
     			add_location(section, file$1, 7, 0, 268);
     		},
@@ -784,12 +784,12 @@ var app = (function () {
     			t4 = space();
     			if (img.src !== (img_src_value = /*list*/ ctx[4].URL)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = /*list*/ ctx[4].LABEL);
-    			attr_dev(img, "class", "service-img svelte-1vp3qol");
+    			attr_dev(img, "class", "service-img svelte-ykobk1");
     			add_location(img, file$2, 14, 10, 490);
-    			attr_dev(h4, "class", "svelte-1vp3qol");
+    			attr_dev(h4, "class", "svelte-ykobk1");
     			add_location(h4, file$2, 15, 10, 560);
     			add_location(p, file$2, 16, 10, 592);
-    			attr_dev(div, "class", "col-md-4 service svelte-1vp3qol");
+    			attr_dev(div, "class", "col-md-4 service svelte-ykobk1");
     			add_location(div, file$2, 13, 8, 449);
     		},
     		m: function mount(target, anchor) {
@@ -846,14 +846,13 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(h2, "class", "svelte-1vp3qol");
     			add_location(h2, file$2, 10, 4, 352);
     			attr_dev(div0, "class", "row section-body");
     			add_location(div0, file$2, 11, 4, 375);
     			attr_dev(div1, "class", "container text-center");
     			add_location(div1, file$2, 9, 2, 312);
     			attr_dev(section, "id", "services");
-    			attr_dev(section, "class", "section grey-bgcolor svelte-1vp3qol");
+    			attr_dev(section, "class", "section grey-bgcolor svelte-ykobk1");
     			add_location(section, file$2, 8, 0, 257);
     		},
     		l: function claim(nodes) {
@@ -979,7 +978,7 @@ var app = (function () {
     		c: function create() {
     			li = element("li");
     			t = text(t_value);
-    			attr_dev(li, "class", "svelte-r0spo4");
+    			attr_dev(li, "class", "svelte-1wfzl9t");
     			add_location(li, file$3, 15, 12, 569);
     		},
     		m: function mount(target, anchor) {
@@ -1045,11 +1044,11 @@ var app = (function () {
     			t4 = space();
     			div1 = element("div");
     			img = element("img");
-    			attr_dev(h2, "class", "title text-center svelte-r0spo4");
+    			attr_dev(h2, "class", "title text-center");
     			add_location(h2, file$3, 9, 4, 345);
-    			attr_dev(h3, "class", "about-title svelte-r0spo4");
+    			attr_dev(h3, "class", "about-title svelte-1wfzl9t");
     			add_location(h3, file$3, 12, 8, 462);
-    			attr_dev(ul, "class", "svelte-r0spo4");
+    			attr_dev(ul, "class", "svelte-1wfzl9t");
     			add_location(ul, file$3, 13, 8, 507);
     			attr_dev(div0, "class", "col-md-6");
     			add_location(div0, file$3, 11, 6, 431);
@@ -1064,7 +1063,7 @@ var app = (function () {
     			attr_dev(div3, "class", "container");
     			add_location(div3, file$3, 8, 2, 317);
     			attr_dev(section, "id", "about-us");
-    			attr_dev(section, "class", "section grey-bgcolor svelte-r0spo4");
+    			attr_dev(section, "class", "section grey-bgcolor svelte-1wfzl9t");
     			add_location(section, file$3, 7, 0, 262);
     		},
     		l: function claim(nodes) {
@@ -1223,9 +1222,9 @@ var app = (function () {
     			add_location(p0, file$4, 14, 10, 518);
     			add_location(b, file$4, 16, 12, 591);
     			add_location(br, file$4, 17, 12, 622);
-    			attr_dev(p1, "class", "user-details svelte-1a2r82m");
+    			attr_dev(p1, "class", "user-details svelte-1pbf62y");
     			add_location(p1, file$4, 15, 10, 554);
-    			attr_dev(div, "class", "col-md-5 testimonial svelte-1a2r82m");
+    			attr_dev(div, "class", "col-md-5 testimonial svelte-1pbf62y");
     			add_location(div, file$4, 13, 8, 473);
     		},
     		m: function mount(target, anchor) {
@@ -1292,7 +1291,7 @@ var app = (function () {
     			attr_dev(div1, "class", "container");
     			add_location(div1, file$4, 9, 2, 301);
     			attr_dev(section, "id", "testimonials");
-    			attr_dev(section, "class", "section svelte-1a2r82m");
+    			attr_dev(section, "class", "section svelte-1pbf62y");
     			add_location(section, file$4, 8, 0, 255);
     		},
     		l: function claim(nodes) {
@@ -1419,7 +1418,7 @@ var app = (function () {
     			img = element("img");
     			if (img.src !== (img_src_value = /*list*/ ctx[3])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = "Social media " + /*list*/ ctx[3]);
-    			attr_dev(img, "class", "glow svelte-81gzab");
+    			attr_dev(img, "class", "glow svelte-179jchr");
     			add_location(img, file$5, 11, 10, 422);
     		},
     		m: function mount(target, anchor) {
@@ -1463,12 +1462,12 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(div0, "class", "social-icons section-body svelte-81gzab");
+    			attr_dev(div0, "class", "social-icons section-body svelte-179jchr");
     			add_location(div0, file$5, 9, 4, 338);
     			attr_dev(div1, "class", "container text-center");
     			add_location(div1, file$5, 8, 2, 298);
     			attr_dev(section, "id", "social-media");
-    			attr_dev(section, "class", "section grey-bgcolor svelte-81gzab");
+    			attr_dev(section, "class", "section grey-bgcolor svelte-179jchr");
     			add_location(section, file$5, 7, 0, 239);
     		},
     		l: function claim(nodes) {
@@ -1601,18 +1600,18 @@ var app = (function () {
     			t2 = text("\n      (954) 441-9995");
     			t3 = space();
     			img = element("img");
-    			add_location(br0, file$6, 19, 6, 527);
-    			add_location(br1, file$6, 21, 6, 565);
-    			attr_dev(div0, "class", "left svelte-1g67r50");
-    			add_location(div0, file$6, 17, 4, 473);
+    			add_location(br0, file$6, 19, 6, 494);
+    			add_location(br1, file$6, 21, 6, 532);
+    			attr_dev(div0, "class", "left svelte-1874fwn");
+    			add_location(div0, file$6, 17, 4, 440);
     			if (img.src !== (img_src_value = "images/logo-aara.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "aara-logo");
-    			attr_dev(img, "class", "right logo svelte-1g67r50");
-    			add_location(img, file$6, 24, 4, 607);
-    			attr_dev(div1, "class", "container svelte-1g67r50");
-    			add_location(div1, file$6, 16, 2, 445);
-    			attr_dev(section, "class", "main-bgcolor light-color");
+    			attr_dev(img, "class", "right logo svelte-1874fwn");
+    			add_location(img, file$6, 24, 4, 574);
+    			attr_dev(div1, "class", "container svelte-1874fwn");
+    			add_location(div1, file$6, 16, 2, 412);
     			attr_dev(section, "id", "footer");
+    			attr_dev(section, "class", "svelte-1874fwn");
     			add_location(section, file$6, 15, 0, 388);
     		},
     		l: function claim(nodes) {
@@ -1868,7 +1867,7 @@ var app = (function () {
     /* src/Components/Map/Map.svelte generated by Svelte v3.16.7 */
     const file$7 = "src/Components/Map/Map.svelte";
 
-    // (93:12) {#if map}
+    // (94:12) {#if map}
     function create_if_block(ctx) {
     	let current;
     	const default_slot_template = /*$$slots*/ ctx[6].default;
@@ -1908,7 +1907,7 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(93:12) {#if map}",
+    		source: "(94:12) {#if map}",
     		ctx
     	});
 
@@ -2051,77 +2050,77 @@ var app = (function () {
     			div21.textContent = "Closed";
     			t36 = space();
     			br6 = element("br");
-    			attr_dev(div0, "class", "map svelte-1ojs62x");
-    			add_location(div0, file$7, 91, 10, 1390);
+    			attr_dev(div0, "class", "map svelte-1knm8hn");
+    			add_location(div0, file$7, 92, 10, 1411);
     			attr_dev(div1, "class", "col-md-6");
-    			add_location(div1, file$7, 89, 8, 1356);
-    			attr_dev(h2, "class", "svelte-1ojs62x");
-    			add_location(h2, file$7, 100, 10, 1585);
-    			attr_dev(div2, "class", "day svelte-1ojs62x");
-    			add_location(div2, file$7, 103, 12, 1660);
-    			attr_dev(div3, "class", "time svelte-1ojs62x");
-    			add_location(div3, file$7, 104, 12, 1702);
+    			add_location(div1, file$7, 90, 8, 1377);
+    			attr_dev(h2, "class", "svelte-1knm8hn");
+    			add_location(h2, file$7, 101, 10, 1606);
+    			attr_dev(div2, "class", "day svelte-1knm8hn");
+    			add_location(div2, file$7, 104, 12, 1681);
+    			attr_dev(div3, "class", "time svelte-1knm8hn");
+    			add_location(div3, file$7, 105, 12, 1723);
     			attr_dev(div4, "id", "Monday");
-    			attr_dev(div4, "class", "dateTime svelte-1ojs62x");
-    			add_location(div4, file$7, 102, 10, 1613);
-    			add_location(br0, file$7, 106, 10, 1763);
-    			attr_dev(div5, "class", "day svelte-1ojs62x");
-    			add_location(div5, file$7, 108, 12, 1826);
-    			attr_dev(div6, "class", "time svelte-1ojs62x");
-    			add_location(div6, file$7, 109, 12, 1869);
+    			attr_dev(div4, "class", "dateTime svelte-1knm8hn");
+    			add_location(div4, file$7, 103, 10, 1634);
+    			add_location(br0, file$7, 107, 10, 1784);
+    			attr_dev(div5, "class", "day svelte-1knm8hn");
+    			add_location(div5, file$7, 109, 12, 1847);
+    			attr_dev(div6, "class", "time svelte-1knm8hn");
+    			add_location(div6, file$7, 110, 12, 1890);
     			attr_dev(div7, "id", "Tuesday");
-    			attr_dev(div7, "class", "dateTime svelte-1ojs62x");
-    			add_location(div7, file$7, 107, 10, 1778);
-    			add_location(br1, file$7, 111, 10, 1930);
-    			attr_dev(div8, "class", "day svelte-1ojs62x");
-    			add_location(div8, file$7, 113, 12, 1995);
-    			attr_dev(div9, "class", "time svelte-1ojs62x");
-    			add_location(div9, file$7, 114, 12, 2040);
+    			attr_dev(div7, "class", "dateTime svelte-1knm8hn");
+    			add_location(div7, file$7, 108, 10, 1799);
+    			add_location(br1, file$7, 112, 10, 1951);
+    			attr_dev(div8, "class", "day svelte-1knm8hn");
+    			add_location(div8, file$7, 114, 12, 2016);
+    			attr_dev(div9, "class", "time svelte-1knm8hn");
+    			add_location(div9, file$7, 115, 12, 2061);
     			attr_dev(div10, "id", "Wednesday");
-    			attr_dev(div10, "class", "dateTime svelte-1ojs62x");
-    			add_location(div10, file$7, 112, 10, 1945);
-    			add_location(br2, file$7, 116, 10, 2101);
-    			attr_dev(div11, "class", "day svelte-1ojs62x");
-    			add_location(div11, file$7, 118, 12, 2165);
-    			attr_dev(div12, "class", "time svelte-1ojs62x");
-    			add_location(div12, file$7, 119, 12, 2209);
+    			attr_dev(div10, "class", "dateTime svelte-1knm8hn");
+    			add_location(div10, file$7, 113, 10, 1966);
+    			add_location(br2, file$7, 117, 10, 2122);
+    			attr_dev(div11, "class", "day svelte-1knm8hn");
+    			add_location(div11, file$7, 119, 12, 2186);
+    			attr_dev(div12, "class", "time svelte-1knm8hn");
+    			add_location(div12, file$7, 120, 12, 2230);
     			attr_dev(div13, "id", "Thursday");
-    			attr_dev(div13, "class", "dateTime svelte-1ojs62x");
-    			add_location(div13, file$7, 117, 10, 2116);
-    			add_location(br3, file$7, 121, 10, 2270);
-    			attr_dev(div14, "class", "day svelte-1ojs62x");
-    			add_location(div14, file$7, 123, 12, 2332);
-    			attr_dev(div15, "class", "time svelte-1ojs62x");
-    			add_location(div15, file$7, 124, 12, 2374);
+    			attr_dev(div13, "class", "dateTime svelte-1knm8hn");
+    			add_location(div13, file$7, 118, 10, 2137);
+    			add_location(br3, file$7, 122, 10, 2291);
+    			attr_dev(div14, "class", "day svelte-1knm8hn");
+    			add_location(div14, file$7, 124, 12, 2353);
+    			attr_dev(div15, "class", "time svelte-1knm8hn");
+    			add_location(div15, file$7, 125, 12, 2395);
     			attr_dev(div16, "id", "Friday");
-    			attr_dev(div16, "class", "dateTime svelte-1ojs62x");
-    			add_location(div16, file$7, 122, 10, 2285);
-    			add_location(br4, file$7, 126, 10, 2435);
-    			attr_dev(div17, "class", "day svelte-1ojs62x");
-    			add_location(div17, file$7, 128, 12, 2499);
-    			attr_dev(div18, "class", "time svelte-1ojs62x");
-    			add_location(div18, file$7, 129, 12, 2543);
+    			attr_dev(div16, "class", "dateTime svelte-1knm8hn");
+    			add_location(div16, file$7, 123, 10, 2306);
+    			add_location(br4, file$7, 127, 10, 2456);
+    			attr_dev(div17, "class", "day svelte-1knm8hn");
+    			add_location(div17, file$7, 129, 12, 2520);
+    			attr_dev(div18, "class", "time svelte-1knm8hn");
+    			add_location(div18, file$7, 130, 12, 2564);
     			attr_dev(div19, "id", "Saturday");
-    			attr_dev(div19, "class", "dateTime svelte-1ojs62x");
-    			add_location(div19, file$7, 127, 10, 2450);
-    			add_location(br5, file$7, 131, 10, 2601);
-    			attr_dev(div20, "class", "day svelte-1ojs62x");
-    			add_location(div20, file$7, 133, 12, 2663);
-    			attr_dev(div21, "class", "time svelte-1ojs62x");
-    			add_location(div21, file$7, 134, 12, 2705);
+    			attr_dev(div19, "class", "dateTime svelte-1knm8hn");
+    			add_location(div19, file$7, 128, 10, 2471);
+    			add_location(br5, file$7, 132, 10, 2622);
+    			attr_dev(div20, "class", "day svelte-1knm8hn");
+    			add_location(div20, file$7, 134, 12, 2684);
+    			attr_dev(div21, "class", "time svelte-1knm8hn");
+    			add_location(div21, file$7, 135, 12, 2726);
     			attr_dev(div22, "id", "Sunday");
-    			attr_dev(div22, "class", "dateTime svelte-1ojs62x");
-    			add_location(div22, file$7, 132, 10, 2616);
-    			add_location(br6, file$7, 136, 10, 2763);
+    			attr_dev(div22, "class", "dateTime svelte-1knm8hn");
+    			add_location(div22, file$7, 133, 10, 2637);
+    			add_location(br6, file$7, 137, 10, 2784);
     			attr_dev(div23, "class", "col-md-6");
-    			add_location(div23, file$7, 98, 8, 1541);
+    			add_location(div23, file$7, 99, 8, 1562);
     			attr_dev(div24, "class", "row");
-    			add_location(div24, file$7, 88, 6, 1330);
+    			add_location(div24, file$7, 89, 6, 1351);
     			attr_dev(div25, "class", "container text-center");
-    			add_location(div25, file$7, 87, 4, 1288);
+    			add_location(div25, file$7, 88, 4, 1309);
     			attr_dev(section, "id", "location");
-    			attr_dev(section, "class", "section grey-bgcolor svelte-1ojs62x");
-    			add_location(section, file$7, 86, 2, 1231);
+    			attr_dev(section, "class", "section grey-bgcolor svelte-1knm8hn");
+    			add_location(section, file$7, 87, 2, 1252);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
