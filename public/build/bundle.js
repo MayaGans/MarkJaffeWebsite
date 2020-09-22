@@ -1601,19 +1601,19 @@ var app = (function () {
     			t2 = text("\n      (954) 441-9995");
     			t3 = space();
     			img = element("img");
-    			add_location(br0, file$6, 19, 6, 527);
-    			add_location(br1, file$6, 21, 6, 565);
+    			add_location(br0, file$6, 10, 6, 302);
+    			add_location(br1, file$6, 12, 6, 340);
     			attr_dev(div0, "class", "left svelte-1p4krq8");
-    			add_location(div0, file$6, 17, 4, 473);
+    			add_location(div0, file$6, 8, 4, 248);
     			if (img.src !== (img_src_value = "images/logo-aara.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "aara-logo");
     			attr_dev(img, "class", "right logo svelte-1p4krq8");
-    			add_location(img, file$6, 24, 4, 607);
+    			add_location(img, file$6, 15, 4, 382);
     			attr_dev(div1, "class", "container svelte-1p4krq8");
-    			add_location(div1, file$6, 16, 2, 445);
+    			add_location(div1, file$6, 7, 2, 220);
     			attr_dev(section, "class", "main-bgcolor light-color");
     			attr_dev(section, "id", "footer");
-    			add_location(section, file$6, 15, 0, 388);
+    			add_location(section, file$6, 6, 0, 163);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1649,36 +1649,10 @@ var app = (function () {
     	return block;
     }
 
-    function instance$6($$self, $$props, $$invalidate) {
-    	let { footerData = {} } = $$props;
-    	let { header = "" } = $$props;
-    	const writable_props = ["footerData", "header"];
-
-    	Object.keys($$props).forEach(key => {
-    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<Footer> was created with unknown prop '${key}'`);
-    	});
-
-    	$$self.$set = $$props => {
-    		if ("footerData" in $$props) $$invalidate(0, footerData = $$props.footerData);
-    		if ("header" in $$props) $$invalidate(1, header = $$props.header);
-    	};
-
-    	$$self.$capture_state = () => {
-    		return { footerData, header };
-    	};
-
-    	$$self.$inject_state = $$props => {
-    		if ("footerData" in $$props) $$invalidate(0, footerData = $$props.footerData);
-    		if ("header" in $$props) $$invalidate(1, header = $$props.header);
-    	};
-
-    	return [footerData, header];
-    }
-
     class Footer extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$6, create_fragment$6, safe_not_equal, { footerData: 0, header: 1 });
+    		init(this, options, null, create_fragment$6, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
@@ -1686,22 +1660,6 @@ var app = (function () {
     			options,
     			id: create_fragment$6.name
     		});
-    	}
-
-    	get footerData() {
-    		throw new Error("<Footer>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-    	}
-
-    	set footerData(value) {
-    		throw new Error("<Footer>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-    	}
-
-    	get header() {
-    		throw new Error("<Footer>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-    	}
-
-    	set header(value) {
-    		throw new Error("<Footer>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
     }
 
@@ -1857,7 +1815,7 @@ var app = (function () {
     return mapboxgl;
 
     })));
-    //# sourceMappingURL=mapbox-gl.js.map
+
     });
 
     // https://docs.mapbox.com/help/glossary/access-token/
@@ -2236,7 +2194,7 @@ var app = (function () {
     	return block;
     }
 
-    function instance$7($$self, $$props, $$invalidate) {
+    function instance$6($$self, $$props, $$invalidate) {
     	setContext(key, { getMap: () => map });
     	let { lat } = $$props;
     	let { lon } = $$props;
@@ -2305,7 +2263,7 @@ var app = (function () {
     class Map$1 extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$7, create_fragment$7, safe_not_equal, { lat: 2, lon: 3, zoom: 4 });
+    		init(this, options, instance$6, create_fragment$7, safe_not_equal, { lat: 2, lon: 3, zoom: 4 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
@@ -2381,7 +2339,7 @@ var app = (function () {
     	return block;
     }
 
-    function instance$8($$self, $$props, $$invalidate) {
+    function instance$7($$self, $$props, $$invalidate) {
     	const { getMap } = getContext(key);
     	const map = getMap();
     	let { lat } = $$props;
@@ -2417,7 +2375,7 @@ var app = (function () {
     class MapMarker extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$8, create_fragment$8, safe_not_equal, { lat: 0, lon: 1, label: 2 });
+    		init(this, options, instance$7, create_fragment$8, safe_not_equal, { lat: 0, lon: 1, label: 2 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,

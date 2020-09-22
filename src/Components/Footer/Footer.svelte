@@ -1,13 +1,4 @@
 <script>
-  export let footerData = {};
-  export let header = "";
-  const {
-    DESCRIPTION,
-    CONTACT_DETAILS,
-    SUBSCRIBE_NEWSLETTER,
-    SUBSCRIBE
-  } = footerData;
-  const { HEADING, ADDRESS, MOBILE, EMAIL } = CONTACT_DETAILS;
 </script>
 
 <!------------------------------------------->
