@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap");
 
 :root {
   --gradient: linear-gradient(90deg, #1F2E4B 0%, #1F2E4B 100%);

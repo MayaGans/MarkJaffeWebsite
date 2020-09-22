@@ -48,6 +48,10 @@
     color: #1F2E4B !important;
   }
 
+  section#nav-bar {
+    padding: 20px !important;
+}
+
   .navbar {
     padding: 0 20px !important;
   }
@@ -65,5 +69,14 @@
     text-transform: uppercase;
     float: right;
     text-align: left;
+  }
+
+  .navbar-nav a:hover {
+    color: black !important;
+    font-weight: 900 !important;
+  }
+
+  a:hover {
+    font-weight: 900 !important;
   }
 </style>
