@@ -784,12 +784,12 @@ var app = (function () {
     			t4 = space();
     			if (img.src !== (img_src_value = /*list*/ ctx[4].URL)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = /*list*/ ctx[4].LABEL);
-    			attr_dev(img, "class", "service-img svelte-1cl3ufg");
+    			attr_dev(img, "class", "service-img svelte-149fiy0");
     			add_location(img, file$2, 14, 10, 490);
-    			attr_dev(h4, "class", "svelte-1cl3ufg");
+    			attr_dev(h4, "class", "svelte-149fiy0");
     			add_location(h4, file$2, 15, 10, 560);
     			add_location(p, file$2, 16, 10, 592);
-    			attr_dev(div, "class", "col-md-4 service svelte-1cl3ufg");
+    			attr_dev(div, "class", "col-md-3 service svelte-149fiy0");
     			add_location(div, file$2, 13, 8, 449);
     		},
     		m: function mount(target, anchor) {
@@ -846,14 +846,14 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(h2, "class", "svelte-1cl3ufg");
+    			attr_dev(h2, "class", "svelte-149fiy0");
     			add_location(h2, file$2, 10, 4, 352);
     			attr_dev(div0, "class", "row section-body");
     			add_location(div0, file$2, 11, 4, 375);
     			attr_dev(div1, "class", "container text-center");
     			add_location(div1, file$2, 9, 2, 312);
     			attr_dev(section, "id", "services");
-    			attr_dev(section, "class", "section grey-bgcolor svelte-1cl3ufg");
+    			attr_dev(section, "class", "section grey-bgcolor svelte-149fiy0");
     			add_location(section, file$2, 8, 0, 257);
     		},
     		l: function claim(nodes) {
@@ -1682,22 +1682,28 @@ var app = (function () {
       ALL_SERVICES: "All Services",
       SERVICE_LIST: [
         {
-          LABEL: "Search Engine Optimisation",
+          LABEL: "Arthritis and Rehabilitation",
           DESCRIPTION:
             "To customise the content, technical functionality and scope of your website so that your pages show for a specific set of keyword at the top of a search engine list. In the end, the goal is to attract traffic to your website when they are searching for goods, services or business-related information.",
-          URL: "images/service1.png"
+          URL: "images/img1.png"
         },
         {
-          LABEL: "Content Marketing Strategy",
+          LABEL: "Rheumatology and Bone Research",
           DESCRIPTION:
             "It is tough but well worth the effort to create clever material that is not promotional in nature, but rather educates and inspires. It lets them see you as a reliable source of information by delivering content that is meaningful to your audience.",
-          URL: "images/service2.png"
+          URL: "images/img2.png"
         },
         {
-          LABEL: "Develop Social Media Strategy",
+          LABEL: "Osteoperosis Assessment",
           DESCRIPTION:
             "Many People rely on social networks to discover, research, and educate themselves about a brand before engaging with that organization. The more your audience wants to engage with your content, the more likely it is that they will want to share it.",
-          URL: "images/service3.png"
+          URL: "images/img3.png"
+        },
+        {
+          LABEL: "Infusion Services",
+          DESCRIPTION:
+            "Many People rely on social networks to discover, research, and educate themselves about a brand before engaging with that organization. The more your audience wants to engage with your content, the more likely it is that they will want to share it.",
+          URL: "images/img4.png"
         }
       ]
     };

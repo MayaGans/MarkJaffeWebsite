@@ -17,22 +17,28 @@ const SERVICE_DATA = {
   ALL_SERVICES: "All Services",
   SERVICE_LIST: [
     {
-      LABEL: "Search Engine Optimisation",
+      LABEL: "Arthritis and Rehabilitation",
       DESCRIPTION:
         "To customise the content, technical functionality and scope of your website so that your pages show for a specific set of keyword at the top of a search engine list. In the end, the goal is to attract traffic to your website when they are searching for goods, services or business-related information.",
-      URL: "images/service1.png"
+      URL: "images/img1.png"
     },
     {
-      LABEL: "Content Marketing Strategy",
+      LABEL: "Rheumatology and Bone Research",
       DESCRIPTION:
         "It is tough but well worth the effort to create clever material that is not promotional in nature, but rather educates and inspires. It lets them see you as a reliable source of information by delivering content that is meaningful to your audience.",
-      URL: "images/service2.png"
+      URL: "images/img2.png"
     },
     {
-      LABEL: "Develop Social Media Strategy",
+      LABEL: "Osteoperosis Assessment",
       DESCRIPTION:
         "Many People rely on social networks to discover, research, and educate themselves about a brand before engaging with that organization. The more your audience wants to engage with your content, the more likely it is that they will want to share it.",
-      URL: "images/service3.png"
+      URL: "images/img3.png"
+    },
+    {
+      LABEL: "Infusion Services",
+      DESCRIPTION:
+        "Many People rely on social networks to discover, research, and educate themselves about a brand before engaging with that organization. The more your audience wants to engage with your content, the more likely it is that they will want to share it.",
+      URL: "images/img4.png"
     }
   ]
 };
