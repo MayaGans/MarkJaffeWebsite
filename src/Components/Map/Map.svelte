@@ -48,9 +48,12 @@
   }
 
   h2 {
-    padding-bottom: 50px;
+    padding-bottom: 10px;
   }
 
+  .hours {
+    padding-top: 50px;
+  }
   .map {
         height: 400px;
         width: 100%;
@@ -99,7 +102,7 @@
 
         <div class="col-md-6">
           
-          <h2>Hours</h2>
+          <h2 class="hours">Hours</h2>
   
           <div id="Monday" class="dateTime">
             <div class="day">Monday</div>

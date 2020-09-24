@@ -13,7 +13,7 @@
       {#each SERVICE_LIST as list}
         <div class="col-md-3 service">
           <img src={list.URL} alt={list.LABEL} class="service-img" />
-          <h4>{list.LABEL}</h4>
+          <h3 class="label">{list.LABEL}</h3>
           <p>{list.DESCRIPTION}</p>
         </div>
       {/each}
@@ -28,6 +28,14 @@
     background-color:  #1F2E4B !important;
     color:  #D0D0D0;
     font-weight: 100;
+  }
+
+  .label {
+    padding-top: 20px;
+  }
+
+  p {
+    font-size: 0.8em !important;
   }
 
   h1, h2, h3, h4 {

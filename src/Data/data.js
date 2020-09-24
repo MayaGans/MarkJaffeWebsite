@@ -44,7 +44,7 @@ const SERVICE_DATA = {
 };
 
 const ABOUT_DATA = {
-  HEADING: "Why choose us?",
+  HEADING: "Dr. Mark Jaffe",
   TITLE: "Why we're different",
   IMAGE_URL: "images/network.png",
   WHY_CHOOSE_US_LIST: [

@@ -32,7 +32,7 @@
 
   .glow {
     box-shadow: 0 0 10px 2px #00AEEF;
-    margin-right: 20px;  
+    margin-right: 3%;
   }
 
 </style>

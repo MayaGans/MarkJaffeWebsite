@@ -1,3 +1,21 @@
+<svelte:head>
+	<style>
+		.test {
+			font-size: 15px;
+			font-family: 'Montserrat';
+		}
+
+		.mapboxgl-popup-tip {
+			color: #00AEEF;
+		}
+
+		.mapboxgl-popup-content {
+  color: ##1F2E4B;
+}
+	</style>
+
+</svelte:head>
+
 <script>
 	import { getContext } from 'svelte';
 	import { mapbox, key } from './mapbox.js';
@@ -14,7 +32,7 @@
 
 	const marker = new mapbox.Popup({ closeOnClick: false })
 .setLngLat([lon, lat])
-.setHTML('<br/> 9900 Stirling Rd #102 <br/> Hollywood, FL 33024 <br/> (954) 441-9995')
+.setHTML('<div class="test"><br/> 9900 Stirling Rd #102 <br/> Hollywood, FL 33024 <br/> (954) 441-9995</div>')
 .addTo(map);
 
 		
@@ -22,9 +40,4 @@
 
 
 <style>
-	.mapboxgl-popup-content {
-  font-family: 'Montserrat', Helvetica !important;
-  background-color: black;
-  color: white;
-}
 </style>

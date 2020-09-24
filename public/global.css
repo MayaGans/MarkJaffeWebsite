@@ -7,6 +7,10 @@
   --grey: #CDCDCD;
 }
 
+h1,h2 {
+  font-size: 3em !important;
+}
+
 html,
 body {
   margin: 0;
