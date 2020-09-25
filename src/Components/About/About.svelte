@@ -10,12 +10,15 @@
     <h2 class="title text-center">{HEADING}</h2>
     <div class="row section-body">
       <div class="col-md-6">
-        <h3 class="about-title">{TITLE}</h3>
-        <ul>
-          {#each WHY_CHOOSE_US_LIST as list}
-            <li>{list}</li>
-          {/each}
-        </ul>
+        <p>
+          Dr. Mark Jaffe is a Board Certified Rheumatologist who has been practicing in South Florida for over 20 years. After completing a fellowship at New York Medical College, Dr. Jaffe practiced rheumatology in New York before moving to Florida.
+
+          <br/>
+          <br/>
+        Known for his medical expertise and his unbound energy, Dr. Jaffe enjoys the reputation of being the “Doctor who listens.” Giving his patients the attention and the time they deserve, Dr. Jaffe tailors a specific treatment plan for each patient, employing the most contemporary modalities available.
+
+
+        </p>
       </div>
       <div class="col-md-6">
         <img src={IMAGE_URL} alt="" class="img-fluid" />
@@ -31,6 +34,12 @@
   .about-title {
     margin-top: 8%;
     margin-bottom: 20px;
+  }
+
+  .img-fluid {
+    width: 50%;
+    display:block;
+    margin:auto;
   }
 
   .section {

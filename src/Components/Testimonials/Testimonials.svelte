@@ -14,9 +14,6 @@
         <div class="col-md-5 testimonial">
           <p>{list.DESCRIPTION}</p>
           <p class="user-details">
-            <b>{list.NAME}</b>
-            <br />
-            {list.DESIGNATION}
           </p>
         </div>
       {/each}
@@ -30,6 +27,7 @@
 
   .section {
     background-color: #D0D0D0 ;
+    font-size: 12px;
   }
 
   .testimonial {

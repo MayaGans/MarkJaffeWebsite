@@ -1,5 +1,6 @@
 <script>
   import Navbar from "./Components/Navbar/Navbar.svelte";
+  import Navbar2 from "./Components/Navbar/Navbar2.svelte";
   import Banner from "./Components/Banner/Banner.svelte";
   import Services from "./Components/Services/Services.svelte";
   import About from "./Components/About/About.svelte";
@@ -11,6 +12,7 @@
 	import MapMarker from './Components/Map/MapMarker.svelte';
 </script>
 
+<Navbar2/>
 <Navbar navlists={DATA.NAVBAR_DATA} header={DATA.HEADER} />
 <Banner bannerData={DATA.BANNER_DATA} />
 

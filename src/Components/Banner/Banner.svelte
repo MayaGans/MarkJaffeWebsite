@@ -13,7 +13,7 @@
         <p>{DECRIPTION}</p>
       </div>
       <div class="col-md-6">
-        <img src="images/markjaffe.png" alt="" class="img-fluid" />
+        <img src="images/about.png" alt="" class="img-fluid" />
       </div>
     </div>
   </div>

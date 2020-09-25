@@ -1,34 +1,14 @@
 <script>
-  export let navlists = [];
-  export let header;
-  console.log(navlists);
 </script>
 <!------------------------------------------->
 <!----------------MARKUP----------------------->
 <!------------------------------------------->
 <section id="nav-bar">
   <nav class="navbar navbar-expand-md navbar-dark">
-    <a class="navbar-brand company_brand" href="/">
-      Dr. Mark Jaffe
-    </a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon" />
-    </button>
+    <div class="navbar-brand company_brand" href="/">
+      To Schedule an Appointment Call: (954) 441-9995
+    </div>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        {#each navlists as list}
-          <li class="nav-item">
-            <a class="nav-link light-color" href={list.url}>{list.label}</a>
-          </li>
-        {/each}
-      </ul>
     </div>
   </nav>
 </section>
@@ -40,8 +20,8 @@
     position: sticky;
     top: 0;
     z-index: 10;
-    background-color: #00AEEF !important;
-    color: #1F2E4B !important;
+    background-color: #1F2E4B !important;
+    color: white !important;
   }
 
   a.nav-link.light-color {
@@ -49,20 +29,18 @@
   }
 
   section#nav-bar {
-    padding: 20px !important;
     font-weight: 300 !important;
 }
-
-  .navbar {
-    padding: 0 20px !important;
-  }
+ .navbar {
+   padding: 0px 2px 0px 10px;
+ }
 
   .navbar-brand {
-    color: #1F2E4B !important;
+    color: white !important;
+    font-size: 12px;
   }
-
   .navbar-nav li {
-    padding: 0 0 0 20px;
+    padding: 0 0 0 0px;
     font-weight: 300 !important;
   }
 

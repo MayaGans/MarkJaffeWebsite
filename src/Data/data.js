@@ -10,35 +10,39 @@ const NAVBAR_DATA = [
 const BANNER_DATA = {
   HEADING: "Go digital with nixalar",
   DECRIPTION:
-    "Nixalar can help you skyrocket the ROI of your marketing campaign without having to spend tons of money or time to assemble an in-house team."
+    "Board Certified Rheumatologist with local hospital privalges. Practicing in South Florida for over 20 years."
 };
 const SERVICE_DATA = {
   HEADING: "Our Services",
   ALL_SERVICES: "All Services",
   SERVICE_LIST: [
     {
-      LABEL: "Arthritis and Rehabilitation",
+      LABEL: "Comprehensive Rheumatology",
       DESCRIPTION:
-        "To customise the content, technical functionality and scope of your website so that your pages show for a specific set of keyword at the top of a search engine list. In the end, the goal is to attract traffic to your website when they are searching for goods, services or business-related information.",
-      URL: "images/img1.png"
+        "Vasculitis Syndromes, Scleorderma, Rheumatoid Arthritis, Lupis, Osteoarthritis, Psoriatic Arthritis, Ankylosing Spondylitis, Gout, Fibromyalga",
+      URL: "images/img1.png",
+      button: null
+    },
+    {
+      LABEL: "Osteoporosis Assessment",
+      DESCRIPTION:
+        "Complete evaluation and management of Osteoporosis and Metabolic Bone Disorders",
+      URL: "images/img3.png",
+      button: null
+    },
+    {
+      LABEL: "Musculoskeletal Imaging",
+      DESCRIPTION:
+        "State of the art digital x-rays",
+      URL: "images/img4.png",
+      button: null
     },
     {
       LABEL: "Rheumatology and Bone Research",
       DESCRIPTION:
-        "It is tough but well worth the effort to create clever material that is not promotional in nature, but rather educates and inspires. It lets them see you as a reliable source of information by delivering content that is meaningful to your audience.",
-      URL: "images/img2.png"
-    },
-    {
-      LABEL: "Osteoperosis Assessment",
-      DESCRIPTION:
-        "Many People rely on social networks to discover, research, and educate themselves about a brand before engaging with that organization. The more your audience wants to engage with your content, the more likely it is that they will want to share it.",
-      URL: "images/img3.png"
-    },
-    {
-      LABEL: "Infusion Services",
-      DESCRIPTION:
-        "Many People rely on social networks to discover, research, and educate themselves about a brand before engaging with that organization. The more your audience wants to engage with your content, the more likely it is that they will want to share it.",
-      URL: "images/img4.png"
+        "We participate in national, cutting edge investigational studies. Current studies include: Gout, Rheumatoid Arthritis, Scleroderma, Lupus, and Serologic Studies. In house study coordinator: ",
+      URL: "images/img2.png",
+      button: "GNP Research"
     }
   ]
 };
@@ -46,7 +50,7 @@ const SERVICE_DATA = {
 const ABOUT_DATA = {
   HEADING: "Dr. Mark Jaffe",
   TITLE: "Why we're different",
-  IMAGE_URL: "images/network.png",
+  IMAGE_URL: "images/markjaffe.png",
   WHY_CHOOSE_US_LIST: [
     "We provides Cost-Effective Digital Marketing than Others.",
     "High customer statisfaction and experience.",
@@ -63,17 +67,13 @@ const TESTIMONIAL_DATA = {
   TESTIMONIAL_LIST: [
     {
       DESCRIPTION:
-        "Nixalar has made a huge difference to our business with his good work and knowledge of SEO and business to business marketing techniques. Our search engine rankings are better than ever and we are getting more people contacting us thanks to Jomer’s knowledge and hard work.",
-      IMAGE_URL: "images/user1.jpg",
-      NAME: "Julia hawkins",
-      DESIGNATION: "Co-founder at ABC"
+        "Extremely pleased with Dr. Jaffe after 16 years of support for my Rheumatoid arthritis problems. His high energy and straight forward style is backed by a rock solid knowledge and understanding of RA--exactly what you would expect from a Diplomate level pro.",
+      IMAGE_URL: "images/user1.jpg"
     },
     {
       DESCRIPTION:
-        "Nixalar and his team have provided us with a comprehensive, fast and well planned digital marketing strategy that has yielded great results in terms of content, SEO, Social Media. His team are a pleasure to work with, as well as being fast to respond and adapt to the needs of your brand.",
-      IMAGE_URL: "images/user2.jpg",
-      NAME: "John Smith",
-      DESIGNATION: "Co-founder at xyz"
+        "Excellent Excellent Excellent..... You just don’t find high-quality doctors like Dr. Jaffe down here in Florida. Dr. Jaffe was the most pleasant surprise I have had in a very very long time. It’s a jungle out there in Florida’s medical world. Dr. Jaffe is a shining star.",
+      IMAGE_URL: "images/user2.jpg"
     }
   ]
 };

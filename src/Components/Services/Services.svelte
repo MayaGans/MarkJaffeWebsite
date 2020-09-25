@@ -15,6 +15,9 @@
           <img src={list.URL} alt={list.LABEL} class="service-img" />
           <h3 class="label">{list.LABEL}</h3>
           <p>{list.DESCRIPTION}</p>
+            {#if list.button !== null}
+            <a href="https://www.gnpresearch.com/hollywood-fl" target="_blank">{list.button}</a>
+            {/if}
         </div>
       {/each}
     </div>
@@ -30,10 +33,13 @@
     font-weight: 100;
   }
 
+  h3 {
+    font-size: 20px;
+  }
+
   .label {
     padding-top: 20px;
   }
-
   p {
     font-size: 0.8em !important;
   }
@@ -43,8 +49,7 @@
   }
 
   .service-img {
-    width: 200px;
-    height: 200px;
+    width: 20%;
     margin-top: 20px;
   }
 
@@ -86,5 +91,19 @@
     box-shadow: none;
     padding: 8px 25px;
     border: none;
+  }
+
+  a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: #00d4ff;
+    padding: 10px;
+  }
+
+  a:hover {
+    color: black;
+    background-color: white;
+    text-decoration: none;
   }
 </style>
