@@ -11,7 +11,7 @@
     <h2>{HEADING}</h2>
     <div class="row section-body">
       {#each SERVICE_LIST as list}
-        <div class="col-md-3 service">
+        <div class="col-md-6 service">
           <img src={list.URL} alt={list.LABEL} class="service-img" />
           <h3 class="label">{list.LABEL}</h3>
           <p>{list.DESCRIPTION}</p>
@@ -34,22 +34,27 @@
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 2em;
   }
 
   .label {
     padding-top: 20px;
   }
   p {
-    font-size: 0.8em !important;
+    font-size: 0.7em !important;
   }
 
   h1, h2, h3, h4 {
     color:  #D0D0D0;
   }
 
+  col-md-3 {
+    margin: 50px;
+    word-wrap: break-word;
+  }
+
   .service-img {
-    width: 20%;
+    width: 25%;
     margin-top: 20px;
   }
 
