@@ -63,7 +63,7 @@ const ABOUT_DATA = {
   ]
 };
 const TESTIMONIAL_DATA = {
-  HEADING: "What clients say?",
+  HEADING: "What patients say?",
   TESTIMONIAL_LIST: [
     {
       DESCRIPTION:
