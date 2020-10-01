@@ -1455,8 +1455,8 @@ var app = (function () {
     		c: function create() {
     			img = element("img");
     			if (img.src !== (img_src_value = /*list*/ ctx[3])) attr_dev(img, "src", img_src_value);
-    			attr_dev(img, "alt", img_alt_value = "Social media " + /*list*/ ctx[3]);
-    			attr_dev(img, "class", "glow svelte-k34a7b");
+    			attr_dev(img, "alt", img_alt_value = /*list*/ ctx[3]);
+    			attr_dev(img, "class", "glow svelte-1mdg64q");
     			add_location(img, file$6, 11, 10, 422);
     		},
     		m: function mount(target, anchor) {
@@ -1500,12 +1500,12 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(div0, "class", "social-icons section-body svelte-k34a7b");
+    			attr_dev(div0, "class", "social-icons section-body svelte-1mdg64q");
     			add_location(div0, file$6, 9, 4, 338);
     			attr_dev(div1, "class", "container text-center");
     			add_location(div1, file$6, 8, 2, 298);
     			attr_dev(section, "id", "social-media");
-    			attr_dev(section, "class", "section grey-bgcolor svelte-k34a7b");
+    			attr_dev(section, "class", "section grey-bgcolor svelte-1mdg64q");
     			add_location(section, file$6, 7, 0, 239);
     		},
     		l: function claim(nodes) {

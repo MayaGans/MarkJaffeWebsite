@@ -9,7 +9,7 @@
   <div class="container text-center">
     <div class="social-icons section-body">
       {#each IMAGES_LIST as list}
-          <img src={list} alt="Social media {list}" class="glow"/>
+          <img src={list} alt="{list}" class="glow"/>
       {/each}
     </div>
   </div>
@@ -18,6 +18,10 @@
 <!----------------STYLE----------------------->
 <!------------------------------------------->
 <style>
+
+  .section-body {
+    width: 100%;
+  }
 
   .section {
     background-color: #D0D0D0;
@@ -32,7 +36,7 @@
 
   .glow {
     box-shadow: 0 0 10px 2px #00AEEF;
-    margin: 0 10px;
+    margin: 10px;
   }
 
 </style>
