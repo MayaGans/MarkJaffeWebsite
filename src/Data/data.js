@@ -10,7 +10,7 @@ const NAVBAR_DATA = [
 const BANNER_DATA = {
   HEADING: "Go digital with nixalar",
   DECRIPTION:
-    "Board Certified Rheumatologist with local hospital privalges. Practicing in South Florida for over 20 years."
+    "Board Certified Rheumatologist with local hospital privileges. Practicing in South Florida for over 20 years."
 };
 const SERVICE_DATA = {
   HEADING: "Our Services",
