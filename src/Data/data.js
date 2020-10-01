@@ -68,12 +68,17 @@ const TESTIMONIAL_DATA = {
     {
       DESCRIPTION:
         "Extremely pleased with Dr. Jaffe after 16 years of support for my Rheumatoid arthritis problems. His high energy and straight forward style is backed by a rock solid knowledge and understanding of RA--exactly what you would expect from a Diplomate level pro.",
-      IMAGE_URL: "images/user1.jpg"
+      IMAGE_URL: "images/user1.jpg",
+      URL: "https://www.healthgrades.com/physician/dr-mark-jaffe-yr62d",
+      NAME: "Mike"
+
     },
     {
       DESCRIPTION:
         "Excellent Excellent Excellent..... You just don’t find high-quality doctors like Dr. Jaffe down here in Florida. Dr. Jaffe was the most pleasant surprise I have had in a very very long time. It’s a jungle out there in Florida’s medical world. Dr. Jaffe is a shining star.",
-      IMAGE_URL: "images/user2.jpg"
+      IMAGE_URL: "images/user2.jpg",
+      URL: "https://www.healthgrades.com/physician/dr-mark-jaffe-yr62d",
+      NAME: "Wendy"
     }
   ]
 };
@@ -83,7 +88,7 @@ const SOCIAL_DATA = {
   IMAGES_LIST: [
     "images/front.png",
     "images/inside.png",
-    "images/front.png",
+    "images/waitingroom.jpeg",
   ]
 };
 

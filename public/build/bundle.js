@@ -1239,7 +1239,12 @@ var app = (function () {
     	let t0;
     	let t1;
     	let p1;
+    	let a;
+    	let b;
+    	let t2_value = /*list*/ ctx[3].NAME + "";
     	let t2;
+    	let a_href_value;
+    	let t3;
 
     	const block = {
     		c: function create() {
@@ -1248,12 +1253,20 @@ var app = (function () {
     			t0 = text(t0_value);
     			t1 = space();
     			p1 = element("p");
-    			t2 = space();
-    			add_location(p0, file$5, 14, 10, 518);
-    			attr_dev(p1, "class", "user-details svelte-n9nzqh");
-    			add_location(p1, file$5, 15, 10, 554);
-    			attr_dev(div, "class", "col-md-5 testimonial svelte-n9nzqh");
-    			add_location(div, file$5, 13, 8, 473);
+    			a = element("a");
+    			b = element("b");
+    			t2 = text(t2_value);
+    			t3 = space();
+    			add_location(p0, file$5, 14, 10, 510);
+    			add_location(b, file$5, 16, 47, 618);
+    			attr_dev(a, "href", a_href_value = /*list*/ ctx[3].URL);
+    			attr_dev(a, "target", "_blank");
+    			attr_dev(a, "class", "svelte-wd50lp");
+    			add_location(a, file$5, 16, 12, 583);
+    			attr_dev(p1, "class", "user-details svelte-wd50lp");
+    			add_location(p1, file$5, 15, 10, 546);
+    			attr_dev(div, "class", "col-md-5 testimonial svelte-wd50lp");
+    			add_location(div, file$5, 13, 8, 465);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -1261,7 +1274,10 @@ var app = (function () {
     			append_dev(p0, t0);
     			append_dev(div, t1);
     			append_dev(div, p1);
-    			append_dev(div, t2);
+    			append_dev(p1, a);
+    			append_dev(a, b);
+    			append_dev(b, t2);
+    			append_dev(div, t3);
     		},
     		p: noop,
     		d: function destroy(detaching) {
@@ -1286,7 +1302,7 @@ var app = (function () {
     	let h2;
     	let t1;
     	let div0;
-    	let each_value = /*TESTIMONIAL_LIST*/ ctx[0];
+    	let each_value = /*TESTIMONIAL_LIST*/ ctx[1];
     	let each_blocks = [];
 
     	for (let i = 0; i < each_value.length; i += 1) {
@@ -1298,7 +1314,7 @@ var app = (function () {
     			section = element("section");
     			div1 = element("div");
     			h2 = element("h2");
-    			h2.textContent = "What Patients Say";
+    			h2.textContent = `${/*HEADING*/ ctx[0]}`;
     			t1 = space();
     			div0 = element("div");
 
@@ -1309,11 +1325,11 @@ var app = (function () {
     			attr_dev(h2, "class", "title text-center");
     			add_location(h2, file$5, 10, 4, 329);
     			attr_dev(div0, "class", "row offset-1 section-body");
-    			add_location(div0, file$5, 11, 4, 386);
+    			add_location(div0, file$5, 11, 4, 378);
     			attr_dev(div1, "class", "container");
     			add_location(div1, file$5, 9, 2, 301);
     			attr_dev(section, "id", "testimonials");
-    			attr_dev(section, "class", "section svelte-n9nzqh");
+    			attr_dev(section, "class", "section svelte-wd50lp");
     			add_location(section, file$5, 8, 0, 255);
     		},
     		l: function claim(nodes) {
@@ -1331,8 +1347,8 @@ var app = (function () {
     			}
     		},
     		p: function update(ctx, [dirty]) {
-    			if (dirty & /*TESTIMONIAL_LIST*/ 1) {
-    				each_value = /*TESTIMONIAL_LIST*/ ctx[0];
+    			if (dirty & /*TESTIMONIAL_LIST*/ 2) {
+    				each_value = /*TESTIMONIAL_LIST*/ ctx[1];
     				let i;
 
     				for (i = 0; i < each_value.length; i += 1) {
@@ -1383,7 +1399,7 @@ var app = (function () {
     	});
 
     	$$self.$set = $$props => {
-    		if ("testimonialData" in $$props) $$invalidate(1, testimonialData = $$props.testimonialData);
+    		if ("testimonialData" in $$props) $$invalidate(2, testimonialData = $$props.testimonialData);
     	};
 
     	$$self.$capture_state = () => {
@@ -1391,16 +1407,16 @@ var app = (function () {
     	};
 
     	$$self.$inject_state = $$props => {
-    		if ("testimonialData" in $$props) $$invalidate(1, testimonialData = $$props.testimonialData);
+    		if ("testimonialData" in $$props) $$invalidate(2, testimonialData = $$props.testimonialData);
     	};
 
-    	return [TESTIMONIAL_LIST, testimonialData];
+    	return [HEADING, TESTIMONIAL_LIST, testimonialData];
     }
 
     class Testimonials extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$4, create_fragment$5, safe_not_equal, { testimonialData: 1 });
+    		init(this, options, instance$4, create_fragment$5, safe_not_equal, { testimonialData: 2 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
@@ -1440,7 +1456,7 @@ var app = (function () {
     			img = element("img");
     			if (img.src !== (img_src_value = /*list*/ ctx[3])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = "Social media " + /*list*/ ctx[3]);
-    			attr_dev(img, "class", "glow svelte-612xvj");
+    			attr_dev(img, "class", "glow svelte-k34a7b");
     			add_location(img, file$6, 11, 10, 422);
     		},
     		m: function mount(target, anchor) {
@@ -1484,12 +1500,12 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(div0, "class", "social-icons section-body svelte-612xvj");
+    			attr_dev(div0, "class", "social-icons section-body svelte-k34a7b");
     			add_location(div0, file$6, 9, 4, 338);
     			attr_dev(div1, "class", "container text-center");
     			add_location(div1, file$6, 8, 2, 298);
     			attr_dev(section, "id", "social-media");
-    			attr_dev(section, "class", "section grey-bgcolor svelte-612xvj");
+    			attr_dev(section, "class", "section grey-bgcolor svelte-k34a7b");
     			add_location(section, file$6, 7, 0, 239);
     		},
     		l: function claim(nodes) {
@@ -1754,12 +1770,17 @@ var app = (function () {
         {
           DESCRIPTION:
             "Extremely pleased with Dr. Jaffe after 16 years of support for my Rheumatoid arthritis problems. His high energy and straight forward style is backed by a rock solid knowledge and understanding of RA--exactly what you would expect from a Diplomate level pro.",
-          IMAGE_URL: "images/user1.jpg"
+          IMAGE_URL: "images/user1.jpg",
+          URL: "https://www.healthgrades.com/physician/dr-mark-jaffe-yr62d",
+          NAME: "Mike"
+
         },
         {
           DESCRIPTION:
             "Excellent Excellent Excellent..... You just don’t find high-quality doctors like Dr. Jaffe down here in Florida. Dr. Jaffe was the most pleasant surprise I have had in a very very long time. It’s a jungle out there in Florida’s medical world. Dr. Jaffe is a shining star.",
-          IMAGE_URL: "images/user2.jpg"
+          IMAGE_URL: "images/user2.jpg",
+          URL: "https://www.healthgrades.com/physician/dr-mark-jaffe-yr62d",
+          NAME: "Wendy"
         }
       ]
     };
@@ -1769,7 +1790,7 @@ var app = (function () {
       IMAGES_LIST: [
         "images/front.png",
         "images/inside.png",
-        "images/front.png",
+        "images/waitingroom.jpeg",
       ]
     };
 
@@ -1842,7 +1863,7 @@ var app = (function () {
     return mapboxgl;
 
     })));
-
+    //# sourceMappingURL=mapbox-gl.js.map
     });
 
     // https://docs.mapbox.com/help/glossary/access-token/
