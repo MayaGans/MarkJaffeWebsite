@@ -838,6 +838,8 @@ var app = (function () {
     	let p;
     	let t5;
     	let a1;
+    	let t7;
+    	let a2;
 
     	const block = {
     		c: function create() {
@@ -852,7 +854,10 @@ var app = (function () {
     			p.textContent = "AARA powered by Bendcare";
     			t5 = space();
     			a1 = element("a");
-    			a1.textContent = "BENDCARE";
+    			a1.textContent = "AARA";
+    			t7 = space();
+    			a2 = element("a");
+    			a2.textContent = "BENDCARE";
     			attr_dev(a0, "href", "https://www.gnpresearch.com/hollywood-fl");
     			attr_dev(a0, "target", "_blank");
     			attr_dev(a0, "class", "svelte-1pg310r");
@@ -861,10 +866,13 @@ var app = (function () {
     			add_location(br1, file$3, 20, 12, 811);
     			attr_dev(p, "class", "svelte-1pg310r");
     			add_location(p, file$3, 21, 12, 829);
-    			attr_dev(a1, "href", "https://www.bendcare.com/");
-    			attr_dev(a1, "target", "_blank");
+    			attr_dev(a1, "href", "https://aara.care/");
     			attr_dev(a1, "class", "svelte-1pg310r");
     			add_location(a1, file$3, 22, 12, 873);
+    			attr_dev(a2, "href", "https://www.bendcare.com/");
+    			attr_dev(a2, "target", "_blank");
+    			attr_dev(a2, "class", "svelte-1pg310r");
+    			add_location(a2, file$3, 23, 12, 923);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, a0, anchor);
@@ -877,6 +885,8 @@ var app = (function () {
     			insert_dev(target, p, anchor);
     			insert_dev(target, t5, anchor);
     			insert_dev(target, a1, anchor);
+    			insert_dev(target, t7, anchor);
+    			insert_dev(target, a2, anchor);
     		},
     		p: noop,
     		d: function destroy(detaching) {
@@ -889,6 +899,8 @@ var app = (function () {
     			if (detaching) detach_dev(p);
     			if (detaching) detach_dev(t5);
     			if (detaching) detach_dev(a1);
+    			if (detaching) detach_dev(t7);
+    			if (detaching) detach_dev(a2);
     		}
     	};
 

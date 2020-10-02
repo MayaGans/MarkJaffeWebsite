@@ -20,6 +20,7 @@
             <br/>
             <br/>
             <p>AARA powered by Bendcare</p>
+            <a href="https://aara.care/">AARA</a>
             <a href="https://www.bendcare.com/" target="_blank">BENDCARE</a>
             {/if}
         </div>
