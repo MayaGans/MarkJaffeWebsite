@@ -855,16 +855,16 @@ var app = (function () {
     			a1.textContent = "BENDCARE";
     			attr_dev(a0, "href", "https://www.gnpresearch.com/hollywood-fl");
     			attr_dev(a0, "target", "_blank");
-    			attr_dev(a0, "class", "svelte-14b41rx");
-    			add_location(a0, file$3, 18, 12, 683);
-    			add_location(br0, file$3, 19, 12, 780);
-    			add_location(br1, file$3, 20, 12, 798);
-    			attr_dev(p, "class", "svelte-14b41rx");
-    			add_location(p, file$3, 21, 12, 816);
+    			attr_dev(a0, "class", "svelte-1pg310r");
+    			add_location(a0, file$3, 18, 12, 696);
+    			add_location(br0, file$3, 19, 12, 793);
+    			add_location(br1, file$3, 20, 12, 811);
+    			attr_dev(p, "class", "svelte-1pg310r");
+    			add_location(p, file$3, 21, 12, 829);
     			attr_dev(a1, "href", "https://www.bendcare.com/");
     			attr_dev(a1, "target", "_blank");
-    			attr_dev(a1, "class", "svelte-14b41rx");
-    			add_location(a1, file$3, 22, 12, 860);
+    			attr_dev(a1, "class", "svelte-1pg310r");
+    			add_location(a1, file$3, 22, 12, 873);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, a0, anchor);
@@ -936,13 +936,13 @@ var app = (function () {
     			t5 = space();
     			if (img.src !== (img_src_value = /*list*/ ctx[4].URL)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = /*list*/ ctx[4].LABEL);
-    			attr_dev(img, "class", "service-img svelte-14b41rx");
-    			add_location(img, file$3, 14, 10, 490);
-    			attr_dev(h3, "class", "label svelte-14b41rx");
-    			add_location(h3, file$3, 15, 10, 560);
-    			attr_dev(p, "class", "svelte-14b41rx");
-    			add_location(p, file$3, 16, 10, 606);
-    			attr_dev(div, "class", "col-md-6 service");
+    			attr_dev(img, "class", "service-img svelte-1pg310r");
+    			add_location(img, file$3, 14, 10, 503);
+    			attr_dev(h3, "class", "label svelte-1pg310r");
+    			add_location(h3, file$3, 15, 10, 573);
+    			attr_dev(p, "class", "svelte-1pg310r");
+    			add_location(p, file$3, 16, 10, 619);
+    			attr_dev(div, "class", "col-sm-4 service col-centered svelte-1pg310r");
     			add_location(div, file$3, 13, 8, 449);
     		},
     		m: function mount(target, anchor) {
@@ -1004,14 +1004,14 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(h2, "class", "svelte-14b41rx");
+    			attr_dev(h2, "class", "svelte-1pg310r");
     			add_location(h2, file$3, 10, 4, 352);
     			attr_dev(div0, "class", "row section-body");
     			add_location(div0, file$3, 11, 4, 375);
     			attr_dev(div1, "class", "container text-center");
     			add_location(div1, file$3, 9, 2, 312);
     			attr_dev(section, "id", "services");
-    			attr_dev(section, "class", "section grey-bgcolor svelte-14b41rx");
+    			attr_dev(section, "class", "section grey-bgcolor svelte-1pg310r");
     			add_location(section, file$3, 8, 0, 257);
     		},
     		l: function claim(nodes) {
@@ -1905,7 +1905,7 @@ var app = (function () {
     return mapboxgl;
 
     })));
-
+    //# sourceMappingURL=mapbox-gl.js.map
     });
 
     // https://docs.mapbox.com/help/glossary/access-token/

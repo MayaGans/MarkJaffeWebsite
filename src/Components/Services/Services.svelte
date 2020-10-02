@@ -11,7 +11,7 @@
     <h2>{HEADING}</h2>
     <div class="row section-body">
       {#each SERVICE_LIST as list}
-        <div class="col-md-6 service">
+        <div class="col-sm-4 service col-centered">
           <img src={list.URL} alt={list.LABEL} class="service-img" />
           <h3 class="label">{list.LABEL}</h3>
           <p>{list.DESCRIPTION}</p>
@@ -37,8 +37,13 @@
     font-weight: 100;
   }
 
+  .col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
   h3 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .label {
