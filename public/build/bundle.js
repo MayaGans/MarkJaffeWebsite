@@ -827,26 +827,57 @@ var app = (function () {
 
     // (18:12) {#if list.button !== null}
     function create_if_block(ctx) {
-    	let a;
-    	let t_value = /*list*/ ctx[4].button + "";
-    	let t;
+    	let a0;
+    	let t0_value = /*list*/ ctx[4].button + "";
+    	let t0;
+    	let t1;
+    	let br0;
+    	let t2;
+    	let br1;
+    	let t3;
+    	let a1;
 
     	const block = {
     		c: function create() {
-    			a = element("a");
-    			t = text(t_value);
-    			attr_dev(a, "href", "https://www.gnpresearch.com/hollywood-fl");
-    			attr_dev(a, "target", "_blank");
-    			attr_dev(a, "class", "svelte-14b41rx");
-    			add_location(a, file$3, 18, 12, 683);
+    			a0 = element("a");
+    			t0 = text(t0_value);
+    			t1 = space();
+    			br0 = element("br");
+    			t2 = space();
+    			br1 = element("br");
+    			t3 = space();
+    			a1 = element("a");
+    			a1.textContent = "BENDCARE";
+    			attr_dev(a0, "href", "https://www.gnpresearch.com/hollywood-fl");
+    			attr_dev(a0, "target", "_blank");
+    			attr_dev(a0, "class", "svelte-14b41rx");
+    			add_location(a0, file$3, 18, 12, 683);
+    			add_location(br0, file$3, 19, 12, 780);
+    			add_location(br1, file$3, 20, 12, 798);
+    			attr_dev(a1, "href", "https://www.bendcare.com/");
+    			attr_dev(a1, "target", "_blank");
+    			attr_dev(a1, "class", "svelte-14b41rx");
+    			add_location(a1, file$3, 21, 12, 816);
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, a, anchor);
-    			append_dev(a, t);
+    			insert_dev(target, a0, anchor);
+    			append_dev(a0, t0);
+    			insert_dev(target, t1, anchor);
+    			insert_dev(target, br0, anchor);
+    			insert_dev(target, t2, anchor);
+    			insert_dev(target, br1, anchor);
+    			insert_dev(target, t3, anchor);
+    			insert_dev(target, a1, anchor);
     		},
     		p: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(a);
+    			if (detaching) detach_dev(a0);
+    			if (detaching) detach_dev(t1);
+    			if (detaching) detach_dev(br0);
+    			if (detaching) detach_dev(t2);
+    			if (detaching) detach_dev(br1);
+    			if (detaching) detach_dev(t3);
+    			if (detaching) detach_dev(a1);
     		}
     	};
 
@@ -1712,7 +1743,7 @@ var app = (function () {
     const BANNER_DATA = {
       HEADING: "Go digital with nixalar",
       DECRIPTION:
-        "Board Certified Rheumatologist with local hospital privalges. Practicing in South Florida for over 20 years."
+        "Board Certified Rheumatologist with local hospital privileges. Practicing in South Florida for over 20 years."
     };
     const SERVICE_DATA = {
       HEADING: "Our Services",
@@ -1765,7 +1796,7 @@ var app = (function () {
       ]
     };
     const TESTIMONIAL_DATA = {
-      HEADING: "What clients say?",
+      HEADING: "Patient Testimonials",
       TESTIMONIAL_LIST: [
         {
           DESCRIPTION:

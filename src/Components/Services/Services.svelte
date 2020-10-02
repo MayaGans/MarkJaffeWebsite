@@ -17,6 +17,9 @@
           <p>{list.DESCRIPTION}</p>
             {#if list.button !== null}
             <a href="https://www.gnpresearch.com/hollywood-fl" target="_blank">{list.button}</a>
+            <br/>
+            <br/>
+            <a href="https://www.bendcare.com/" target="_blank">BENDCARE</a>
             {/if}
         </div>
       {/each}
