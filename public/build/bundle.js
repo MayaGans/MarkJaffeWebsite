@@ -835,6 +835,8 @@ var app = (function () {
     	let t2;
     	let br1;
     	let t3;
+    	let p;
+    	let t5;
     	let a1;
 
     	const block = {
@@ -846,6 +848,9 @@ var app = (function () {
     			t2 = space();
     			br1 = element("br");
     			t3 = space();
+    			p = element("p");
+    			p.textContent = "AARA powered by Bendcare";
+    			t5 = space();
     			a1 = element("a");
     			a1.textContent = "BENDCARE";
     			attr_dev(a0, "href", "https://www.gnpresearch.com/hollywood-fl");
@@ -854,10 +859,12 @@ var app = (function () {
     			add_location(a0, file$3, 18, 12, 683);
     			add_location(br0, file$3, 19, 12, 780);
     			add_location(br1, file$3, 20, 12, 798);
+    			attr_dev(p, "class", "svelte-14b41rx");
+    			add_location(p, file$3, 21, 12, 816);
     			attr_dev(a1, "href", "https://www.bendcare.com/");
     			attr_dev(a1, "target", "_blank");
     			attr_dev(a1, "class", "svelte-14b41rx");
-    			add_location(a1, file$3, 21, 12, 816);
+    			add_location(a1, file$3, 22, 12, 860);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, a0, anchor);
@@ -867,6 +874,8 @@ var app = (function () {
     			insert_dev(target, t2, anchor);
     			insert_dev(target, br1, anchor);
     			insert_dev(target, t3, anchor);
+    			insert_dev(target, p, anchor);
+    			insert_dev(target, t5, anchor);
     			insert_dev(target, a1, anchor);
     		},
     		p: noop,
@@ -877,6 +886,8 @@ var app = (function () {
     			if (detaching) detach_dev(t2);
     			if (detaching) detach_dev(br1);
     			if (detaching) detach_dev(t3);
+    			if (detaching) detach_dev(p);
+    			if (detaching) detach_dev(t5);
     			if (detaching) detach_dev(a1);
     		}
     	};
@@ -1894,7 +1905,7 @@ var app = (function () {
     return mapboxgl;
 
     })));
-    //# sourceMappingURL=mapbox-gl.js.map
+
     });
 
     // https://docs.mapbox.com/help/glossary/access-token/

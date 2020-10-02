@@ -19,6 +19,7 @@
             <a href="https://www.gnpresearch.com/hollywood-fl" target="_blank">{list.button}</a>
             <br/>
             <br/>
+            <p>AARA powered by Bendcare</p>
             <a href="https://www.bendcare.com/" target="_blank">BENDCARE</a>
             {/if}
         </div>
