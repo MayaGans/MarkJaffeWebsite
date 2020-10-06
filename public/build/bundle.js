@@ -630,16 +630,16 @@ var app = (function () {
     			div0.textContent = "To Schedule an Appointment Call: (954) 441-9995";
     			t1 = space();
     			div1 = element("div");
-    			attr_dev(div0, "class", "navbar-brand company_brand svelte-32khrv");
+    			attr_dev(div0, "class", "navbar-brand company_brand svelte-1cbvxtd");
     			attr_dev(div0, "href", "/");
     			add_location(div0, file$1, 7, 4, 241);
     			attr_dev(div1, "class", "collapse navbar-collapse");
     			attr_dev(div1, "id", "navbarNav");
     			add_location(div1, file$1, 10, 4, 360);
-    			attr_dev(nav, "class", "navbar navbar-expand-md navbar-dark svelte-32khrv");
+    			attr_dev(nav, "class", "navbar navbar-expand-md navbar-dark svelte-1cbvxtd");
     			add_location(nav, file$1, 6, 2, 187);
     			attr_dev(section, "id", "nav-bar");
-    			attr_dev(section, "class", "svelte-32khrv");
+    			attr_dev(section, "class", "svelte-1cbvxtd");
     			add_location(section, file$1, 5, 0, 162);
     		},
     		l: function claim(nodes) {
@@ -860,18 +860,18 @@ var app = (function () {
     			a2.textContent = "BENDCARE";
     			attr_dev(a0, "href", "https://www.gnpresearch.com/hollywood-fl");
     			attr_dev(a0, "target", "_blank");
-    			attr_dev(a0, "class", "svelte-1pg310r");
+    			attr_dev(a0, "class", "svelte-1bimm6u");
     			add_location(a0, file$3, 18, 12, 696);
     			add_location(br0, file$3, 19, 12, 793);
     			add_location(br1, file$3, 20, 12, 811);
-    			attr_dev(p, "class", "svelte-1pg310r");
+    			attr_dev(p, "class", "svelte-1bimm6u");
     			add_location(p, file$3, 21, 12, 829);
     			attr_dev(a1, "href", "https://aara.care/");
-    			attr_dev(a1, "class", "svelte-1pg310r");
+    			attr_dev(a1, "class", "svelte-1bimm6u");
     			add_location(a1, file$3, 22, 12, 873);
     			attr_dev(a2, "href", "https://www.bendcare.com/");
     			attr_dev(a2, "target", "_blank");
-    			attr_dev(a2, "class", "svelte-1pg310r");
+    			attr_dev(a2, "class", "svelte-1bimm6u");
     			add_location(a2, file$3, 23, 12, 923);
     		},
     		m: function mount(target, anchor) {
@@ -948,13 +948,13 @@ var app = (function () {
     			t5 = space();
     			if (img.src !== (img_src_value = /*list*/ ctx[4].URL)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = /*list*/ ctx[4].LABEL);
-    			attr_dev(img, "class", "service-img svelte-1pg310r");
+    			attr_dev(img, "class", "service-img svelte-1bimm6u");
     			add_location(img, file$3, 14, 10, 503);
-    			attr_dev(h3, "class", "label svelte-1pg310r");
+    			attr_dev(h3, "class", "label svelte-1bimm6u");
     			add_location(h3, file$3, 15, 10, 573);
-    			attr_dev(p, "class", "svelte-1pg310r");
+    			attr_dev(p, "class", "svelte-1bimm6u");
     			add_location(p, file$3, 16, 10, 619);
-    			attr_dev(div, "class", "col-sm-4 service col-centered svelte-1pg310r");
+    			attr_dev(div, "class", "col-sm-4 service col-centered svelte-1bimm6u");
     			add_location(div, file$3, 13, 8, 449);
     		},
     		m: function mount(target, anchor) {
@@ -1016,14 +1016,14 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(h2, "class", "svelte-1pg310r");
+    			attr_dev(h2, "class", "svelte-1bimm6u");
     			add_location(h2, file$3, 10, 4, 352);
     			attr_dev(div0, "class", "row section-body");
     			add_location(div0, file$3, 11, 4, 375);
     			attr_dev(div1, "class", "container text-center");
     			add_location(div1, file$3, 9, 2, 312);
     			attr_dev(section, "id", "services");
-    			attr_dev(section, "class", "section grey-bgcolor svelte-1pg310r");
+    			attr_dev(section, "class", "section grey-bgcolor svelte-1bimm6u");
     			add_location(section, file$3, 8, 0, 257);
     		},
     		l: function claim(nodes) {
@@ -1687,19 +1687,19 @@ var app = (function () {
     			div0 = element("div");
     			t0 = text("9900 Stirling Rd #102 \n      ");
     			br0 = element("br");
-    			t1 = text("\n      Hollywood, FL 33024\n      ");
+    			t1 = text("\n      Cooper City, FL 33024\n      ");
     			br1 = element("br");
     			t2 = text("\n      (954) 441-9995");
     			t3 = space();
     			img = element("img");
     			add_location(br0, file$7, 10, 6, 302);
-    			add_location(br1, file$7, 12, 6, 340);
+    			add_location(br1, file$7, 12, 6, 342);
     			attr_dev(div0, "class", "left svelte-1p4krq8");
     			add_location(div0, file$7, 8, 4, 248);
     			if (img.src !== (img_src_value = "images/logo-aara.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "aara-logo");
     			attr_dev(img, "class", "right logo svelte-1p4krq8");
-    			add_location(img, file$7, 15, 4, 382);
+    			add_location(img, file$7, 15, 4, 384);
     			attr_dev(div1, "class", "container svelte-1p4krq8");
     			add_location(div1, file$7, 7, 2, 220);
     			attr_dev(section, "class", "main-bgcolor light-color");
@@ -1917,7 +1917,7 @@ var app = (function () {
     return mapboxgl;
 
     })));
-    //# sourceMappingURL=mapbox-gl.js.map
+
     });
 
     // https://docs.mapbox.com/help/glossary/access-token/
@@ -2459,7 +2459,7 @@ var app = (function () {
     	let { lon } = $$props;
     	let { label } = $$props;
     	const popup = new mapboxGl.Popup({ offset: 25 }).setText(label);
-    	const marker = new mapboxGl.Popup({ closeOnClick: false }).setLngLat([lon, lat]).setHTML("<div class=\"test\"><br/> 9900 Stirling Rd #102 <br/> Hollywood, FL 33024 <br/> (954) 441-9995</div>").addTo(map);
+    	const marker = new mapboxGl.Popup({ closeOnClick: false }).setLngLat([lon, lat]).setHTML("<div class=\"test\"><br/> 9900 Stirling Rd #102 <br/> Cooper City, FL 33024 <br/> (954) 441-9995</div>").addTo(map);
     	const writable_props = ["lat", "lon", "label"];
 
     	Object.keys($$props).forEach(key => {

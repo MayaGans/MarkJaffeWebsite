@@ -32,7 +32,7 @@
 
 	const marker = new mapbox.Popup({ closeOnClick: false })
 .setLngLat([lon, lat])
-.setHTML('<div class="test"><br/> 9900 Stirling Rd #102 <br/> Hollywood, FL 33024 <br/> (954) 441-9995</div>')
+.setHTML('<div class="test"><br/> 9900 Stirling Rd #102 <br/> Cooper City, FL 33024 <br/> (954) 441-9995</div>')
 .addTo(map);
 
 		

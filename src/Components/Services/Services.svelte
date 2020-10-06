@@ -51,7 +51,7 @@
     padding-top: 20px;
   }
   p {
-    font-size: 0.7em !important;
+    font-size: 0.8em !important;
   }
 
   h1, h2, h3, h4 {
