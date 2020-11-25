@@ -19,7 +19,7 @@ const SERVICE_DATA = {
     {
       LABEL: "Comprehensive Rheumatology",
       DESCRIPTION:
-        "Vasculitis Syndromes, Scleorderma, Rheumatoid Arthritis, Lupis, Osteoarthritis, Psoriatic Arthritis, Ankylosing Spondylitis, Gout, Fibromyalga",
+        "Vasculitis Syndromes, Scleorderma, Rheumatoid Arthritis, Lupus, Osteoarthritis, Psoriatic Arthritis, Ankylosing Spondylitis, Gout, Fibromyalga",
       URL: "images/img1.png",
       button: null
     },
