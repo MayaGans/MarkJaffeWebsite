@@ -37,7 +37,7 @@
 
   .navbar-brand {
     color: white !important;
-    font-size: 18px;
+    font-size: 2vw;
   }
   .navbar-nav li {
     padding: 0 0 0 0px;

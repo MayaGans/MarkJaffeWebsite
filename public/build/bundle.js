@@ -630,16 +630,16 @@ var app = (function () {
     			div0.textContent = "To Schedule an Appointment Call: (954) 441-9995";
     			t1 = space();
     			div1 = element("div");
-    			attr_dev(div0, "class", "navbar-brand company_brand svelte-1cbvxtd");
+    			attr_dev(div0, "class", "navbar-brand company_brand svelte-17ggg6x");
     			attr_dev(div0, "href", "/");
     			add_location(div0, file$1, 7, 4, 241);
     			attr_dev(div1, "class", "collapse navbar-collapse");
     			attr_dev(div1, "id", "navbarNav");
     			add_location(div1, file$1, 10, 4, 360);
-    			attr_dev(nav, "class", "navbar navbar-expand-md navbar-dark svelte-1cbvxtd");
+    			attr_dev(nav, "class", "navbar navbar-expand-md navbar-dark svelte-17ggg6x");
     			add_location(nav, file$1, 6, 2, 187);
     			attr_dev(section, "id", "nav-bar");
-    			attr_dev(section, "class", "svelte-1cbvxtd");
+    			attr_dev(section, "class", "svelte-17ggg6x");
     			add_location(section, file$1, 5, 0, 162);
     		},
     		l: function claim(nodes) {
