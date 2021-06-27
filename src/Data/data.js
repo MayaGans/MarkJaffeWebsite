@@ -38,6 +38,13 @@ const SERVICE_DATA = {
       button: null
     },
     {
+      LABEL: "Infusion Suite",
+      DESCRIPTION:
+        "Infusion services with individualized state of the art treatment for all rheumatic disorders",
+      URL: "images/infusion.png",
+      button: null
+    },
+    {
       LABEL: "Rheumatology and Bone Research",
       DESCRIPTION:
         "We participate in national, cutting edge investigational studies. Current studies include: Gout, Rheumatoid Arthritis, Scleroderma, Lupus, and Serologic Studies. In house study coordinator: ",
@@ -88,6 +95,7 @@ const SOCIAL_DATA = {
   IMAGES_LIST: [
     "images/front.png",
     "images/inside.png",
+    "images/infusionroom.JPG",
     "images/waitingroom.jpeg",
   ]
 };

@@ -11,7 +11,7 @@
     <h2>{HEADING}</h2>
     <div class="row section-body">
       {#each SERVICE_LIST as list}
-        <div class="col-sm-4 service col-centered">
+        <div class="col-sm-6 service col-centered">
           <img src={list.URL} alt={list.LABEL} class="service-img" />
           <h3 class="label">{list.LABEL}</h3>
           <p>{list.DESCRIPTION}</p>
@@ -54,58 +54,13 @@
     font-size: 0.8em !important;
   }
 
-  h1, h2, h3, h4 {
+  h2, h3 {
     color:  #D0D0D0;
-  }
-
-  col-md-3 {
-    margin: 50px;
-    word-wrap: break-word;
   }
 
   .service-img {
     width: 25%;
     margin-top: 20px;
-  }
-
-  .service h4 {
-    padding: 5px;
-    margin-top: 25px;
-    text-transform: uppercase;
-  }
-
-  .title {
-    text-transform: uppercase;
-    color: #D0D0D0;
-  }
-
-  .title::before {
-    content: "";
-    background: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%);
-    height: 5px;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    transform: translateY(60px);
-  }
-
-  .title::after {
-    content: "";
-    background: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%);
-    height: 10px;
-    width: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    display: block;
-    transform: translateY(14px);
-  }
-
-  section .btn-primary {
-    box-shadow: none;
-    padding: 8px 25px;
-    border: none;
   }
 
   a {

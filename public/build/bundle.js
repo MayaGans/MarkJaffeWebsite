@@ -860,18 +860,18 @@ var app = (function () {
     			a2.textContent = "BENDCARE";
     			attr_dev(a0, "href", "https://www.gnpresearch.com/hollywood-fl");
     			attr_dev(a0, "target", "_blank");
-    			attr_dev(a0, "class", "svelte-1bimm6u");
+    			attr_dev(a0, "class", "svelte-7fj6r3");
     			add_location(a0, file$3, 18, 12, 696);
     			add_location(br0, file$3, 19, 12, 793);
     			add_location(br1, file$3, 20, 12, 811);
-    			attr_dev(p, "class", "svelte-1bimm6u");
+    			attr_dev(p, "class", "svelte-7fj6r3");
     			add_location(p, file$3, 21, 12, 829);
     			attr_dev(a1, "href", "https://aara.care/");
-    			attr_dev(a1, "class", "svelte-1bimm6u");
+    			attr_dev(a1, "class", "svelte-7fj6r3");
     			add_location(a1, file$3, 22, 12, 873);
     			attr_dev(a2, "href", "https://www.bendcare.com/");
     			attr_dev(a2, "target", "_blank");
-    			attr_dev(a2, "class", "svelte-1bimm6u");
+    			attr_dev(a2, "class", "svelte-7fj6r3");
     			add_location(a2, file$3, 23, 12, 923);
     		},
     		m: function mount(target, anchor) {
@@ -948,13 +948,13 @@ var app = (function () {
     			t5 = space();
     			if (img.src !== (img_src_value = /*list*/ ctx[4].URL)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = /*list*/ ctx[4].LABEL);
-    			attr_dev(img, "class", "service-img svelte-1bimm6u");
+    			attr_dev(img, "class", "service-img svelte-7fj6r3");
     			add_location(img, file$3, 14, 10, 503);
-    			attr_dev(h3, "class", "label svelte-1bimm6u");
+    			attr_dev(h3, "class", "label svelte-7fj6r3");
     			add_location(h3, file$3, 15, 10, 573);
-    			attr_dev(p, "class", "svelte-1bimm6u");
+    			attr_dev(p, "class", "svelte-7fj6r3");
     			add_location(p, file$3, 16, 10, 619);
-    			attr_dev(div, "class", "col-sm-4 service col-centered svelte-1bimm6u");
+    			attr_dev(div, "class", "col-sm-6 service col-centered svelte-7fj6r3");
     			add_location(div, file$3, 13, 8, 449);
     		},
     		m: function mount(target, anchor) {
@@ -1016,14 +1016,14 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(h2, "class", "svelte-1bimm6u");
+    			attr_dev(h2, "class", "svelte-7fj6r3");
     			add_location(h2, file$3, 10, 4, 352);
     			attr_dev(div0, "class", "row section-body");
     			add_location(div0, file$3, 11, 4, 375);
     			attr_dev(div1, "class", "container text-center");
     			add_location(div1, file$3, 9, 2, 312);
     			attr_dev(section, "id", "services");
-    			attr_dev(section, "class", "section grey-bgcolor svelte-1bimm6u");
+    			attr_dev(section, "class", "section grey-bgcolor svelte-7fj6r3");
     			add_location(section, file$3, 8, 0, 257);
     		},
     		l: function claim(nodes) {
@@ -1775,7 +1775,7 @@ var app = (function () {
         {
           LABEL: "Comprehensive Rheumatology",
           DESCRIPTION:
-            "Vasculitis Syndromes, Scleorderma, Rheumatoid Arthritis, Lupis, Osteoarthritis, Psoriatic Arthritis, Ankylosing Spondylitis, Gout, Fibromyalga",
+            "Vasculitis Syndromes, Scleorderma, Rheumatoid Arthritis, Lupus, Osteoarthritis, Psoriatic Arthritis, Ankylosing Spondylitis, Gout, Fibromyalga",
           URL: "images/img1.png",
           button: null
         },
@@ -1791,6 +1791,13 @@ var app = (function () {
           DESCRIPTION:
             "State of the art digital x-rays",
           URL: "images/img4.png",
+          button: null
+        },
+        {
+          LABEL: "Infusion Suite",
+          DESCRIPTION:
+            "Infusion services with individualized state of the art treatment for all rheumatic disorders",
+          URL: "images/infusion.png",
           button: null
         },
         {
@@ -1844,6 +1851,7 @@ var app = (function () {
       IMAGES_LIST: [
         "images/front.png",
         "images/inside.png",
+        "images/infusionroom.JPG",
         "images/waitingroom.jpeg",
       ]
     };
@@ -1917,7 +1925,7 @@ var app = (function () {
     return mapboxgl;
 
     })));
-
+    //# sourceMappingURL=mapbox-gl.js.map
     });
 
     // https://docs.mapbox.com/help/glossary/access-token/
