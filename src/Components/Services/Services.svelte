@@ -16,7 +16,7 @@
           <h3 class="label">{list.LABEL}</h3>
           <p>{list.DESCRIPTION}</p>
             {#if list.button !== null}
-            <a href="https://www.gnpresearch.com/hollywood-fl" target="_blank">{list.button}</a>
+            <a href="https://www.gnpresearch.com" target="_blank">{list.button}</a>
             <br/>
             <br/>
             <p>AARA powered by Bendcare</p>
