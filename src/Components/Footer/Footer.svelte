@@ -28,7 +28,7 @@
   }
 
   .container {
-    padding: 10px 0px 10px 0px;
+    padding: 1%
     height: 100px;
   }
 
