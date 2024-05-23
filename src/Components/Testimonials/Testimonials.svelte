@@ -20,11 +20,20 @@
       {/each}
     </div>
   </div>
+  <div>
+  </div>
 </section>
 <!------------------------------------------->
 <!----------------STYLE----------------------->
 <!------------------------------------------->
 <style>
+
+  .centered {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
 
   .section {
     background-color: #D0D0D0 ;

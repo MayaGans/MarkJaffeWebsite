@@ -10,6 +10,7 @@
   import DATA from "./Data/data";
   import Map from './Components/Map/Map.svelte';
 	import MapMarker from './Components/Map/MapMarker.svelte';
+  import News from './Components/News/News.svelte'
 </script>
 
 <Navbar2/>
@@ -24,4 +25,5 @@
 <Social socialData={DATA.SOCIAL_DATA} />
 <About aboutData={DATA.ABOUT_DATA} />
 <Testimonials testimonialData={DATA.TESTIMONIAL_DATA} />
+<News></News>
 <Footer footerData={DATA.FOOTER_DATA} header={DATA.HEADER} />

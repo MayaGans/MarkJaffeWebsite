@@ -41,7 +41,7 @@ const SERVICE_DATA = {
       LABEL: "Infusion Suite",
       DESCRIPTION:
         "Infusion services with individualized state of the art treatment for all rheumatic disorders",
-      URL: "images/infusion.png",
+      URL: "images/infusion_new.png",
       button: null
     },
     {
@@ -95,7 +95,7 @@ const SOCIAL_DATA = {
   IMAGES_LIST: [
     "images/front.png",
     "images/inside.png",
-    "images/infusionroom.JPG",
+    "images/infusion_new.png",
     "images/waitingroom.jpeg",
   ]
 };
