@@ -2576,7 +2576,7 @@ var app = (function () {
     			iframe = element("iframe");
     			attr_dev(h2, "class", "title text-center");
     			add_location(h2, file$a, 7, 8, 235);
-    			attr_dev(iframe, "width", "560");
+    			attr_dev(iframe, "width", "80%");
     			attr_dev(iframe, "height", "315");
     			if (iframe.src !== (iframe_src_value = "https://www.youtube.com/embed/VtCKWmftkaM?si=bH2wwgixJiTyi2fL")) attr_dev(iframe, "src", iframe_src_value);
     			attr_dev(iframe, "title", "YouTube video player");
@@ -2584,11 +2584,12 @@ var app = (function () {
     			attr_dev(iframe, "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share");
     			attr_dev(iframe, "referrerpolicy", "strict-origin-when-cross-origin");
     			iframe.allowFullscreen = true;
+    			attr_dev(iframe, "class", "svelte-1yqjxh8");
     			add_location(iframe, file$a, 8, 8, 297);
-    			attr_dev(div, "class", "centered svelte-1ukue80");
+    			attr_dev(div, "class", "centered svelte-1yqjxh8");
     			add_location(div, file$a, 6, 6, 203);
     			attr_dev(section, "id", "news");
-    			attr_dev(section, "class", "section svelte-1ukue80");
+    			attr_dev(section, "class", "section svelte-1yqjxh8");
     			add_location(section, file$a, 5, 2, 160);
     		},
     		l: function claim(nodes) {

@@ -7,7 +7,7 @@
       <div class="centered">
         <h2 class="title text-center">Media Appearances</h2>
         <iframe 
-          width="560" 
+          width="80%" 
           height="315" 
           src="https://www.youtube.com/embed/VtCKWmftkaM?si=bH2wwgixJiTyi2fL" 
           title="YouTube video player" 
@@ -24,6 +24,9 @@
   <!------------------------------------------->
   <style>
   
+    iframe {
+      max-width: 500px;
+    }
     .centered {
       display: flex;
       justify-content: center;
