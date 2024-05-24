@@ -1,3 +1,5 @@
+<script>
+
 const HEADER = "Dr. Mark Jaffe";
 
 const NAVBAR_DATA = [
@@ -69,13 +71,13 @@ const ABOUT_DATA = {
     "We provides wide range to services in reasonable prices"
   ]
 };
+
 const TESTIMONIAL_DATA = {
   HEADING: "Patient Testimonials",
   TESTIMONIAL_LIST: [
     {
       DESCRIPTION:
         "Extremely pleased with Dr. Jaffe after 16 years of support for my Rheumatoid arthritis problems. His high energy and straight forward style is backed by a rock solid knowledge and understanding of RA--exactly what you would expect from a Diplomate level pro.",
-      IMAGE_URL: "images/user1.jpg",
       URL: "https://www.healthgrades.com/physician/dr-mark-jaffe-yr62d",
       NAME: "Mike"
 
@@ -83,7 +85,6 @@ const TESTIMONIAL_DATA = {
     {
       DESCRIPTION:
         "Excellent Excellent Excellent..... You just don’t find high-quality doctors like Dr. Jaffe down here in Florida. Dr. Jaffe was the most pleasant surprise I have had in a very very long time. It’s a jungle out there in Florida’s medical world. Dr. Jaffe is a shining star.",
-      IMAGE_URL: "images/user2.jpg",
       URL: "https://www.healthgrades.com/physician/dr-mark-jaffe-yr62d",
       NAME: "Wendy"
     }
@@ -113,14 +114,32 @@ const FOOTER_DATA = {
   SUBSCRIBE: "Subscribe"
 };
 
-const MOCK_DATA = {
-  HEADER,
-  NAVBAR_DATA,
-  BANNER_DATA,
-  SERVICE_DATA,
-  ABOUT_DATA,
-  TESTIMONIAL_DATA,
-  SOCIAL_DATA,
-  FOOTER_DATA
-};
-export default MOCK_DATA;
+  import About from "./Components/About/About.svelte"
+  import Navbar from "./Components/Navbar/Navbar.svelte";
+  import Navbar2 from "./Components/Navbar/Navbar2.svelte";
+  import Banner from "./Components/Banner/Banner.svelte";
+  import Services from "./Components/Services/Services.svelte";
+  import Testimonials from "./Components/Testimonials/Testimonials.svelte";
+  import Social from "./Components/Social/Social.svelte";
+  import Footer from "./Components/Footer/Footer.svelte";
+  import Map from './Components/Map/Map.svelte';
+  import MapMarker from './Components/Map/MapMarker.svelte';
+  import News from './Components/News/News.svelte'
+</script>
+
+<Navbar2/>
+<Navbar navlists={NAVBAR_DATA} header={HEADER} />
+<Banner bannerData={BANNER_DATA} />
+
+<Map lat={26.045210} lon={-80.278222} zoom={13}>
+	<MapMarker lat={26.045210} lon={-80.278222} label="9900 Stirling Rd #102 Hollywood, FL 33024"/>
+</Map>
+
+<Services serviceData={SERVICE_DATA} />
+<Social socialData={SOCIAL_DATA} />
+<About aboutData={ABOUT_DATA} />
+<Testimonials testimonialData={TESTIMONIAL_DATA} />
+<News></News>
+<Footer footerData={FOOTER_DATA} header={HEADER} />
+
+

@@ -47,3 +47,19 @@ h1,h2,h3,h4 {
   padding: 20px 0;
 }
 
+h1, h2, h3, h4 {
+    color: #D0D0D0;
+  }
+
+  section ul li {
+    margin: 10px 0;
+  }
+
+  section ul {
+    padding-left: 23px;
+  }
+
+  li {
+    list-style: none;
+  }
+
