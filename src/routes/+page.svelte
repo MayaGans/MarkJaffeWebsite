@@ -43,7 +43,7 @@ const SERVICE_DATA = {
       LABEL: "Infusion Suite",
       DESCRIPTION:
         "Infusion services with individualized state of the art treatment for all rheumatic disorders",
-      URL: "images/infusion_new.png",
+      URL: "images/iv.png",
       button: null
     },
     {
