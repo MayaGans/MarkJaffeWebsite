@@ -31,10 +31,6 @@
 <!----------------STYLE----------------------->
 <!------------------------------------------->
 <style>
-  .about-title {
-    margin-top: 8%;
-    margin-bottom: 20px;
-  }
 
   .img-fluid {
     width: 50%;
@@ -47,15 +43,7 @@
     color: #D0D0D0;
   }
 
-  h1, h2, h3, h4 {
+  h2 {
     color: #D0D0D0;
-  }
-
-  section ul li {
-    margin: 10px 0;
-  }
-
-  section ul {
-    padding-left: 23px;
   }
 </style>

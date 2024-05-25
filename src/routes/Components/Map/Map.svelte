@@ -43,10 +43,6 @@
     color: #1F2E4B;
   }
 
-  .custom-text {
-    font-family: 'Cormorant' !important;
-  }
-
   h2 {
     padding-bottom: 10px;
   }
@@ -60,29 +56,12 @@
         box-shadow: 0 0 10px 2px #00AEEF;
        }
 
-  .glow {
-    box-shadow: 0 0 10px 2px #00AEEF;
-    margin-right: 20px;  
-  }
-
   .dateTime {
   max-width: 320px;
   margin: 0 auto;
-  padding: 5px;
-}
-
-.top {
-  padding-top: 20px;
-}
-
-.day {
-  display: inline-block;
-  float: left;
-}
-
-.time {
-  display: inline-block;
-  float: right
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
 }
 
 </style>
@@ -108,37 +87,30 @@
             <div class="day">Monday</div>
             <div class="time">9am - 5pm</div>
           </div>
-          <br>
           <div id="Tuesday" class="dateTime">
             <div class="day">Tuesday</div>
             <div class="time">9am - 5pm</div>
           </div>
-          <br>
           <div id="Wednesday" class="dateTime">
             <div class="day">Wednesday</div>
             <div class="time">9am - 5pm</div>
           </div>
-          <br>
           <div id="Thursday" class="dateTime">
             <div class="day">Thursday</div>
             <div class="time">9am - 5pm</div>
           </div>
-          <br>
           <div id="Friday" class="dateTime">
             <div class="day">Friday</div>
             <div class="time">9am - 1pm</div>
           </div>
-          <br>
           <div id="Saturday" class="dateTime">
             <div class="day">Saturday</div>
             <div class="time">Closed</div>
           </div>
-          <br>
           <div id="Sunday" class="dateTime">
             <div class="day">Sunday</div>
             <div class="time">Closed</div>
           </div>
-          <br>
   
         </div>
       </div>

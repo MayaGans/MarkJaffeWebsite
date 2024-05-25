@@ -24,10 +24,6 @@
     color: white !important;
   }
 
-  a.nav-link.light-color {
-    color: #1F2E4B !important;
-  }
-
   section#nav-bar {
     font-weight: 300 !important;
 }
@@ -39,24 +35,5 @@
     color: white !important;
     font-size: 2vw;
   }
-  .navbar-nav li {
-    padding: 0 0 0 0px;
-    font-weight: 300 !important;
-  }
 
-  .navbar-nav li a {
-    text-transform: uppercase;
-    float: right;
-    text-align: left;
-    font-weight: 300 !important;
-  }
-
-  .navbar-nav a:hover {
-    color: white  !important;
-    font-weight: 400 !important;
-  }
-
-  a:hover {
-    font-weight: 400 !important;
-  }
 </style>

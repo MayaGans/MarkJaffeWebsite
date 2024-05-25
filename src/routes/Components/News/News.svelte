@@ -39,32 +39,4 @@
       font-size: 12px;
     }
   
-    .testimonial {
-      border-left: 4px solid #00AEEF;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      background-color: #D0D0D0 ;
-      color: #1F2E4B;
-    }
-  
-    a:hover {
-      text-decoration: none;
-      color: #00AEEF;
-    }
-  
-    a {
-      color: black;
-    }
-  
-    .testimonial img {
-      height: 60px;
-      width: 60px;
-      border-radius: 50%;
-      margin: 0 10px;
-    }
-  
-    .user-details {
-      display: inline-block;
-      font-size: 12px;
-    }
   </style>

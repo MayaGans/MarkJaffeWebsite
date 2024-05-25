@@ -1,7 +1,5 @@
 <script>
   export let navlists = [];
-  export let header;
-  console.log(navlists);
 </script>
 <!------------------------------------------->
 <!----------------MARKUP----------------------->
