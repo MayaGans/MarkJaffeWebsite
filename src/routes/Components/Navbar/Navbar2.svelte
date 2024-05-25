@@ -20,8 +20,8 @@
     position: sticky;
     top: 0;
     z-index: 10;
-    background-color: #1F2E4B !important;
-    color: white !important;
+    background-color: #061826 !important;
+    color: var(--grey) !important;
   }
 
   section#nav-bar {
@@ -32,7 +32,7 @@
  }
 
   .navbar-brand {
-    color: white !important;
+    color: var(--grey) !important;
     font-size: 2vw;
   }
 

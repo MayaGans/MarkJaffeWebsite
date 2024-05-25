@@ -28,15 +28,12 @@
 <!------------------------------------------->
 <style>
 
-  .centered {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  .title {
+    color: #061826;
   }
-
+  
   .section {
-    background-color: #D0D0D0 ;
+    background-color: #E8EBE4;
     font-size: 12px;
   }
 
@@ -44,7 +41,7 @@
     border-left: 4px solid #00AEEF;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: #D0D0D0 ;
+    background-color: #E8EBE4 ;
     color: #1F2E4B;
   }
 
@@ -55,13 +52,6 @@
 
   a {
     color: black;
-  }
-
-  .testimonial img {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    margin: 0 10px;
   }
 
   .user-details {

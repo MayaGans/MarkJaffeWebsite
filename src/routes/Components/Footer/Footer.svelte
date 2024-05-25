@@ -4,7 +4,7 @@
 <!------------------------------------------->
 <!----------------MARKUP----------------------->
 <!------------------------------------------->
-<section class="main-bgcolor light-color" id="footer">
+<section id="footer">
   <div class="container">
     <div class="left">
       9900 Stirling Rd #102 
@@ -21,35 +21,23 @@
 <!------------------------------------------->
 <style>
 
-
-  .footer-title {
-    font-weight: bold;
-    text-transform: uppercase;
+  section {
+    background: #E8EBE4;
+    color: #061826;
+    font-size: 0.85em;
   }
-
+ 
   .container {
     padding: 1%;
     height: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items:center;
   }
 
-  .left {
-    float: left;
+  img {
+    max-height: 90%;
   }
 
-  .right {
-    float: right;
-  }
-
-  .logo {
-    width: 10%;
-    padding-top: 10px;
-  }
-
-  .footer-box button {
-    margin-top: 30px;
-  }
-
-  .round-border {
-    border-radius: 20px !important;
-  }
 </style>

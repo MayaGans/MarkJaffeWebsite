@@ -39,7 +39,7 @@
 <style>
   
   .section {
-    background-color:  #D0D0D0;
+    background-color:  #E8EBE4;
     color: #1F2E4B;
   }
 
@@ -49,19 +49,26 @@
 
   .hours {
     padding-top: 50px;
+    color: #061826;
   }
+
   .map {
         height: 400px;
         width: 100%;
         box-shadow: 0 0 10px 2px #00AEEF;
        }
 
-  .dateTime {
-  max-width: 320px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  text-align: left;
+
+
+.dateTime {
+    gap: 20px;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
 }
 
 </style>

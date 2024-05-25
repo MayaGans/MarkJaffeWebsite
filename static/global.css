@@ -2,9 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
 
 :root {
-  --gradient: linear-gradient(90deg, #1F2E4B 0%, #1F2E4B 100%);
-  --light: #CDCDCD;
-  --grey: #CDCDCD;
+  --gradient: linear-gradient(90deg, #061826 0%, #061826 100%);
+  --light: #E8EBE4;
+  --grey: #E8EBE4;
+  --darkblue: #061826;
 }
 
 h1,h2 {
@@ -17,17 +18,18 @@ body {
   padding: 0;
   font-family: 'Montserrat', Helvetica !important;
   scroll-behavior: smooth;
-  color: #1F2E4B;
+  color: var(--darkblue);
 }
 
 h1,h2,h3,h4 {
   font-family: 'Cormorant' !important;
   text-transform: uppercase;
-  color: #1F2E4B;
+  color: var(--darkblue);
 }
 
 .main-bgcolor {
-  background-image: var(--gradient);
+  background-image: var(--darkblue);
+  background: var(--darkblue);
 }
 .light-color {
   color: var(--light) !important;
@@ -48,7 +50,7 @@ h1,h2,h3,h4 {
 }
 
 h1, h2, h3, h4 {
-    color: #D0D0D0;
+    color: var(--grey);
   }
 
   section ul li {

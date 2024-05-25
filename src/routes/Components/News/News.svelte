@@ -35,7 +35,7 @@
     }
   
     .section {
-      background-color: #00AEEF;
+      background-color: #061826;
       font-size: 12px;
     }
   

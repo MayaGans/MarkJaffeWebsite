@@ -31,12 +31,13 @@
     width: 75%;
     box-shadow: 0 0 10px 2px #00AEEF;
   }
-  h1,h2,h3,h4 {
+
+  h1 {
     color: #D0D0D0 !important;
   }
 
   .black {
-    background-color: #1F2E4B  !important;
+    background-color: #061826  !important;
     color: #D0D0D0;
   }
 
@@ -45,20 +46,7 @@
     font-weight: 600;
     margin-top: 100px;
     text-transform: uppercase;
-    color: #1F2E4B;
-  }
-  .watch-btn {
-    margin: auto 20px;
-    position: relative;
-    top: 8px;
+    color: #061826;
   }
 
-  section a {
-    text-decoration: none;
-  }
-
-  .wave-img {
-    width: 100%;
-    height: auto;
-  }
 </style>

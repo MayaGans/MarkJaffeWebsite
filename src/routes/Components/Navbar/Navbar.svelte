@@ -1,5 +1,6 @@
 <script>
   export let navlists = [];
+  console.log(navlists);
 </script>
 <!------------------------------------------->
 <!----------------MARKUP----------------------->
@@ -38,7 +39,7 @@
     position: sticky;
     top: 0;
     z-index: 10;
-    background-color: #00AEEF !important;
+    background-color: #E8EBE4 !important;
     color: #1F2E4B !important;
   }
 

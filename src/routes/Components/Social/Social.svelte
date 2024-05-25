@@ -24,14 +24,10 @@
   }
 
   .section {
-    background-color: #D0D0D0;
+    background-color: #E8EBE4;
   }
   .social-icons img {
     width: 30%;
-  }
-
-  .custom-text {
-    font-family: 'Cormorant' !important;
   }
 
   .glow {

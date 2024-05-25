@@ -33,7 +33,7 @@
 <!------------------------------------------->
 <style>
   .section {
-    background-color:  #1F2E4B !important;
+    background-color:  #061826 !important;
     color:  #D0D0D0;
     font-weight: 100;
   }
