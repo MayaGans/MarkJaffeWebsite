@@ -22,7 +22,7 @@
 </a>
 
     <a
-  href="https://www.youtube.com/embed/VtCKWmftkaM?si=bH2wwgixJiTyi2fL"
+  href="https://www.youtube.com/watch?v=VtCKWmftkaM"
   target="_blank"
   rel="noopener noreferrer"
   aria-label="Instagram"
