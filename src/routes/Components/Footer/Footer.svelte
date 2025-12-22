@@ -1,4 +1,5 @@
 <script>
+  import Instagram from "$lib/icons/Instagram.svelte";
 </script>
 
 <!------------------------------------------->
@@ -13,7 +14,6 @@
       <br/>
       (954) 441-9995
     </div>
-    <img src="images/logo-aara.png" alt="aara-logo" class="right logo"/>
   </div>
 </section>
 <!------------------------------------------->

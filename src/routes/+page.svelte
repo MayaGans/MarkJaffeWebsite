@@ -118,6 +118,7 @@ const FOOTER_DATA = {
   import Navbar from "./Components/Navbar/Navbar.svelte";
   import Navbar2 from "./Components/Navbar/Navbar2.svelte";
   import Banner from "./Components/Banner/Banner.svelte";
+  import Metrics from "./Components/Services/Metrics.svelte"
   import Services from "./Components/Services/Services.svelte";
   import Testimonials from "./Components/Testimonials/Testimonials.svelte";
   import Social from "./Components/Social/Social.svelte";
@@ -136,6 +137,7 @@ const FOOTER_DATA = {
 </Map>
 
 <Services serviceData={SERVICE_DATA} />
+<Metrics />
 <Social socialData={SOCIAL_DATA} />
 <About aboutData={ABOUT_DATA} />
 <Testimonials testimonialData={TESTIMONIAL_DATA} />
